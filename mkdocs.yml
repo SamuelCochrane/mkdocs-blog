@@ -27,19 +27,19 @@ theme:
     - content.tooltips
     # - header.autohide
     # - navigation.expand
-    - navigation.footer
-    - navigation.indexes
+    # - navigation.footer
+    # - navigation.indexes
     # - navigation.instant
-    # - navigation.prune
-    - navigation.sections
-    - navigation.tabs
+    - navigation.prune
+    # - navigation.sections
+    # - navigation.tabs
     # - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
+    # - navigation.top
+    # - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
-    - toc.follow
+    # - toc.follow
     # - toc.integrate
   palette:
     - scheme: default
@@ -76,6 +76,9 @@ plugins:
       blog_dir: .
       post_url_format: "{slug}"
       post_readtime: false
+      blog_toc: false
+      categories: false
+      pagination_keep_content: false
   - link-marker
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'

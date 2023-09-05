@@ -6,29 +6,37 @@ DONT FORGET TO EDIT THE URL
 }
 */
 
+a  { 
+    color: var(--md-accent-fg-color);
+}
+a:hover {
+    text-decoration: underline;
 
+}
 
+h1 a:not(.headerlink) {
+    color: var(--md-default-fg-color)!important;
+    background-color: transparent!important;
+    font-weight: 800;
+    letter-spacing: -.04em;
+}
+
+/* Links that contain a specific domain name */
+a[href*=example\.com] { background-color:lightblue; }
 
 /* Internal link css */
-/* .md-content__inner a {
-    border-radius:5px;
-    padding-right:3px;
-    padding-left:3px;
-    color: var(--md-typeset-color);
-    background-color:rgba(115, 178, 250, 0.3);
+/* Works because internal links point directly, 
+   without using http/https. We then filter out specific
+   types of links */
+a:not([href^=http]):not(.headerlink):not([class*=md-])  { 
+    border-radius: 0.25rem;
+    color: var(--md-accent-fg-color);
+    background-color: var(--md-accent-fg-color--transparent);
 }
 
-[data-md-color-scheme=slate] .md-post a {
-    background-color: #243d41!important
-}
 
-.md-post a:hover {
-    text-decoration-line: underline
-}
 
-.headerlink, h1 a {
-    background-color: transparent!important;
-} */
+
 
 
 /* toclink (links from the timeline view) */
@@ -47,9 +55,6 @@ DONT FORGET TO EDIT THE URL
     padding-left:3px;
 }
 
-[data-md-color-scheme=slate] .not_found{
-    background-color:rgba(231,232,243,.185)
-}
 /* [data-md-color-scheme=slate] .not_found:hover{
     color:grey;
     background-color:#d3d3d3;
