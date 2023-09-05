@@ -21,5 +21,14 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
+      - run: pip install \
+              mkdocs-material \
+              mkdocs-awesome-pages-plugin \
+              mkdocs-link-marker \
+              mkdocs-minify-plugin \
+              mkdocs-ezlinks-plugin \
+              mkdocs-callouts \
+              mkdocs-glightbox \
+              mkdocs-embed-file-plugins \
+              mkdocs-backlinks
       - run: mkdocs gh-deploy --force
