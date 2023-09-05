@@ -1,4 +1,5 @@
-squidfunk:
-  name: Samuel Cochrane
-  description: Creator
-  avatar: 
+authors:
+  cochrane:
+    name: Samuel Cochrane
+    description: Creator
+    avatar: https://avatars.githubusercontent.com/u/9341531
