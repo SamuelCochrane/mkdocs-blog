@@ -1,12 +1,8 @@
 ---
-aliases: []
-cssclasses:
-  - embed-strict
 date: 2023-09-04
-dateModified: 2023-09-04
+dateModified: 2023-09-05
 fileClass:
   - Note
-image: 
 share: true
 stage: 🌱 Seedling
 title: Happiness Is A Bad Goal
@@ -17,11 +13,11 @@ title: Happiness Is A Bad Goal
 > "Happiness isn’t a goal… it’s a by-product of a life well lived." 
 > -- Eleanor Roosevelt
 
-[[Happiness|Happiness]] is a bad [[goal|goal]] to directly aim for. Focus instead on improving your conditions, and happiness will naturally arrive. ^h2pv5l
+[[Happiness|Happiness]] is a bad [[goal|goal]] to directly aim for. Focus instead on improving your conditions, and happiness will naturally arrive.
 
 ### Desire Is Antithetical
 
-[[goal|Goal]]s are driven by [[Dopamine|Dopamine]], and [[Dopamine Is The Desire Chemical, Not The Happiness Chemical]].
+[[goal|Goal]]s are driven by [[Dopamine|Dopamine]], and [[Dopamine Is The Desire Chemical, Not The Happiness Chemical|Dopamine Is The Desire Chemical, Not The Happiness Chemical]].
 This is why [[It's the Getting, Not The Having|Achieving Your Goals Isn't As Fun As You Expect]].
 
 [[Desire Is The Root Of All Suffering|Desire Is The Root Of All Suffering]], after all.

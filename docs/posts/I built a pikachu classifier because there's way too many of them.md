@@ -1,14 +1,9 @@
 ---
-categories: ''
-color: warning
 date: 2022-01-18
-dateModified: 2023-06-11
-description: Using state-of-the-art convolutional neural networks, we can finally
+dateModified: 2023-09-05
 image: "Attachments/Pasted image 20221227122948.png"
-permalink: pikachu-classifier
 share: true
 title: "I built a pikachu classifier because there's way too many of them"
-toc: false
 ---
 
 # [[I built a pikachu classifier because there's way too many of them|I built a pikachu classifier because there's way too many of them]]
