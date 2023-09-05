@@ -6,9 +6,11 @@ DONT FORGET TO EDIT THE URL
 }
 */
 
-a[href^=http]  { 
-    color: var(--md-accent-fg-color);
+.md-header--shadow {
+    box-shadow: none;
 }
+
+
 a:hover {
     text-decoration: underline;
 
@@ -22,7 +24,7 @@ h1 a:not(.headerlink) {
 }
 
 /* Links that contain a specific domain name */
-a[href*=example\.com] { background-color:lightblue; }
+a[href*=youtube\.com] { background-color:rgb(202, 28, 28); }
 
 /* Internal link css */
 /* Works because internal links point directly, 
@@ -34,8 +36,10 @@ a:not([href^=http]):not(.headerlink):not([class*=md-])  {
     background-color: var(--md-accent-fg-color--transparent);
 }
 
-
-
+/* External link css */
+a[href^=http]  { 
+    color: var(--md-accent-fg-color);
+}
 
 
 
