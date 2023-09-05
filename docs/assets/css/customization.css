@@ -6,7 +6,7 @@ DONT FORGET TO EDIT THE URL
 }
 */
 
-a  { 
+a[href^=http]  { 
     color: var(--md-accent-fg-color);
 }
 a:hover {
