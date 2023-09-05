@@ -2,13 +2,16 @@
 alias: null
 cssClasses: embed-strict
 date: 2022-11-26
-dateModified: 2023-06-10
+dateModified: 2023-06-25
+fileClass: [Note]
 image: "https://www.simplypsychology.org/wp-content/uploads/maslow-needs3.jpg"
-tags: 
+share: true
+slug: hierarchy-of-needs
+stage: 🌱 Seedling
 title: Hierarchy Of Needs
 ---
 
-# [[Hierarchy Of Needs]]
+# [[Hierarchy Of Needs|Hierarchy Of Needs]]
 
 ### Needs List
 
@@ -71,5 +74,5 @@ graph TD
 ### See Also
 
 - [Maslow's Hierarchy of Needs](https://www.simplypsychology.org/maslow.html)
-- [[Deficiency Needs Vs. Growth Needs]]
-- [[Sex is a core need]]
+- [[Deficiency Needs Vs Growth Needs|Deficiency Needs Vs Growth Needs]]
+- [[Sex is a core need|Sex is a core need]]

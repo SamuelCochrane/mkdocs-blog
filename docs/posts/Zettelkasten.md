@@ -31,6 +31,10 @@ Modeled after the human brain, (or rather, a [[model|model]] of the human brain)
 
 ### Tool List
 
+- [[Taskade|Taskade]]
+- [[Roam Research|Roam Research]]
+- [[Obsidian|Obsidian]]
+- [[Notion.so|Notion.so]]
 
 
 ### Tools for Teams (instead of Individuals like Remnote/Roam)
