@@ -30,5 +30,6 @@ jobs:
               mkdocs-callouts \
               mkdocs-glightbox \
               mkdocs-embed-file-plugins \
-              mkdocs-backlinks
+              mkdocs-backlinks \
+              mdx-breakless-lists
       - run: mkdocs gh-deploy --force
