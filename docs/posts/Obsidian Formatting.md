@@ -2,11 +2,11 @@
 alias: Obsidian Styling
 cssClasses: embed-strict
 date: 2022-12-12
-dateModified: 2023-06-11
+dateModified: 2023-09-06
 image: 
-stage: 
 share: true
 slug: obsidian-formatting
+stage: 
 title: Obsidian Formatting
 ---
 
@@ -17,6 +17,25 @@ Obsidian is a Markdown-based note-taking and knowledge base app.
 We currently support the formats below:
 
 ---
+
+### Icons
+
+Support for FontAwesome icons
+
+`:fas_angles_right:` should render as :fas_angles_right:
+`:fas_dice:` should render as :fas_dice:
+
+These are anybodys guess: 
+- Roll: :fas_dice: :material-dice-multiple:
+- Strength: :muscle
+- Miss: :fas_minus: : material-numeric-6-box-multiple: :material-minus:
+- Weak Hit: :material-numeric-7-box-multiple: - :material-numeric-9-box-multiple:
+- Strong Hit: :fas_greater_than_equal: :material-numeric-10-box-multiple: :material-plus:
+- Stats: :fontawesome-solid-scroll: :material-bandage:  :material-run-fast: :material-speedometer: :fontawesome-solid-person-breastfeeding: :material-pill-multiple:
+- Move: :fas_angles_right:
+- Cost: :material-checkbox-multiple-marked-circle: :material-package-variant-closed: :fontawesome-solid-money-bills: :fontawesome-solid-money-bill-wave: :material-smoke-detector-variant: :material-smoke-detector-outline: :material-alpha-c-circle: :material-checkbox-multiple-blank-circle-outline: :material-hand-coin: :fontawesome-solid-coins:
+- Specific Move icons : :material-sword: :material-arrow-projectile: :fontawesome-solid-hands-asl-interpreting: :fontawesome-solid-handshake-angle: :material-chevron-triple-down: :material-expand-all: :material-head-dots-horizontal-outline: :fontawesome-solid-person-walking-dashed-line-arrow-right:
+- Harm: :material-water-circle: :fontawesome-solid-heart-circle-xmark: :material-heart-off: :material-heart-box: :material-heart-circle: :fontawesome-solid-heart-crack:
 
 ### Callouts
 
@@ -61,28 +80,27 @@ Learn more about callouts [[Use callouts|here]].
 
 > [!quote]  [!quote]  [!cite]
 
-
 ---
 
 ### Internal Linking
 
 ```md
-Link to a page: [[Internal link]].
+Link to a page: [[Internal link|Internal link]].
 ```
 
-Link to a page: [[Internal link]].
+Link to a page: [[Internal link|Internal link]].
 
 ---
 
 ### Embeds
 
-Embed another file (read more about [[Embed files]]). Here's an embedded section:
+Embed another file (read more about [[Embed files|Embed files]]). Here's an embedded section:
 
 ```md
-![[Obsidian#What is Obsidian]]
+![[Obsidian#What is Obsidian|Obsidian > What is Obsidian]]
 ```
 
-![[Test Note 2#First Header]]
+![[Test Note 2#First Header|Test Note 2 > First Header]]
 
 ---
 
@@ -215,10 +233,10 @@ Will look like this:
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
 ```md
-![[og-image.png]]
+![[og-image.png|og-image.png]]
 ```
 
-![[og-image.png]]
+![[og-image.png|og-image.png]]
 
 #### Resizing Images
 
@@ -354,7 +372,6 @@ function fancyAlert(arg) {
 
 ### Task List
 
-  
 Syntax	Description
 - [ ] to-do ` `
 - [/] incomplete `/`
@@ -599,7 +616,7 @@ Biology --> Chemistry
 
 
 Obsidian supports linking to notes in Mermaid,
-these links will not show up on [[Graph view]].
+these links will not show up on [[Graph view|Graph view]].
 ````md
 ```mermaid
 graph TD
@@ -643,7 +660,7 @@ It looks like this if you follow the [[Format your notes#^376b9d|second option]]
 
 ## Developer Notes
 
-We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats]].
+We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats|Accepted file formats]].
 
 We intentionally do not support parsing markdown syntax and blank lines within HTML blocks. This is the result of an optimization to handle very large files and to support synchronization between editing and reading mode.
 
