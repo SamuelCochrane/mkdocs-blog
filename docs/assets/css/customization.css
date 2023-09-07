@@ -6,48 +6,71 @@ DONT FORGET TO EDIT THE URL
 }
 */
 
+/* navbar styling */
 .md-header--shadow {
     box-shadow: none;
 }
 
+/* remove whitespace at top of page */
+.md-main__inner {
+    margin-top: 0rem;
+}
 
+/* generically change link styling */
+.md-typeset a {
+    color: var(--md-accent-fg-color);
+}
 a:hover {
     text-decoration: underline;
 
 }
+.md-nav__item .md-nav__link--active {
+    color: var(--md-default-fg-color--light);
+}
 
-h1 a:not(.headerlink) {
+/* Style subheaders on blog Archive */
+div.md-post__content h1 a,
+div.md-post__content h3 a,
+div.md-post__content h4 a {
+    color: var(--md-default-fg-color)!important;
+    background-color: transparent!important;
+}
+
+/* Style headers on blog posts*/
+h1 a:not(.headerlink),
+div.md-post__content h2 a {
     color: var(--md-default-fg-color)!important;
     background-color: transparent!important;
     font-weight: 800;
     letter-spacing: -.04em;
 }
 
-/* Links that contain a specific domain name */
-a[href*=youtube\.com] { background-color:rgb(202, 28, 28); }
+/* hide footer */
+footer {
+    /* display: none  */
+    visibility: hidden;
+}
+
 
 /* Internal link css */
 /* Works because internal links point directly, 
    without using http/https. We then filter out specific
    types of links */
-a:not([href^=http]):not(.headerlink):not([class*=md-])  { 
+p a:not([href^=http]):not([class*=md-]), 
+li a:not([href^=http]):not([class*=md-]) { 
     border-radius: 0.25rem;
-    color: var(--md-accent-fg-color);
     background-color: var(--md-accent-fg-color--transparent);
+    padding: 2px 1ox;
+
 }
 
 /* External link css */
 a[href^=http]  { 
     color: var(--md-accent-fg-color);
 }
+/* Links that contain a specific domain name */
+a[href*=youtube\.com] { background-color:rgb(255, 148, 148); }
 
-
-
-/* toclink (links from the timeline view) */
-
-/* .md-post--excerpt {
-    color: var(--md-typeset-color);
-} */
 
 /* Not_Found link css */
 .not_found{
@@ -74,8 +97,7 @@ a[href^=http]  {
 
 
 
-
-
+/* <---- ----> */
 
 
 
