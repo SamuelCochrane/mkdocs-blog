@@ -7,7 +7,8 @@ image:
 share: true
 stage: 🌱 Seedling
 title: Reciprocal Altruism
-fileClass: [Note]
+fileClass:
+  - Note
 ---
 
 # [[Reciprocal Altruism|Reciprocal Altruism]]
@@ -50,7 +51,7 @@ In other words, always choose peace until you get screwed, then choose war.
 
 Reciprocal Altruism requires: them to notice, them to care, them to want to act back, them to be able to act back
 
-[[Agent|Agent]]s using Reciprocal Altruism are not "truly selfless". [[Rational Self Interest]] has dictated that being selfless, to the right people, will benefit them - so that's what they do.
+[[Agent|Agent]]s using Reciprocal Altruism are not "truly selfless". [[Rational Self Interest|Rational Self Interest]] has dictated that being selfless, to the right people, will benefit them - so that's what they do.
 
 Reciprocal Altruism doesn't suggest being kind to everyone, but to those who've shown they know how to cooperate. There's no requirement to be nice to everyone or to sacrifice yourself to "higher causes" that don't personally benefit you. [[Max Stirner|Stirner]] would be proud. 
 
