@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-06-11
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 stage: 🌿 Fern
 share: true
@@ -13,9 +14,9 @@ title: Using ControlNet to Create Battle Maps
 
 # [[Using ControlNet to Create Battle Maps|Using ControlNet to Create Battle Maps]]
 
-[[Image Generative AI]] is great for creating art, but will struggle with something like a battle map that needs consistent room sizes, doors, etc that conform to a rigid grid.
+[[Image Generative AI|Image Generative AI]] is great for creating art, but will struggle with something like a battle map that needs consistent room sizes, doors, etc that conform to a rigid grid.
 
-Using [[ControlNet]], we can try to constrain the output of [[Stable Diffusion|Stable Diffusion]] to the specific geometry of a battle map.
+Using [[ControlNet|ControlNet]], we can try to constrain the output of [[Stable Diffusion|Stable Diffusion]] to the specific geometry of a battle map.
 
 [[Stable Diffusion|Stable Diffusion]] models trained on the 'look/feel' of battle maps
 - models
@@ -32,7 +33,7 @@ Raw Map
 
 ![[../assets/images/map_24x24 (1).png|300]]
 
-Taking the raw map from Dungeon SCrawl, we can preprocess it with the Canny [[ControlNet]] model to create distinct edges.
+Taking the raw map from Dungeon SCrawl, we can preprocess it with the Canny [[ControlNet|ControlNet]] model to create distinct edges.
 
 ![[../assets/images/Pasted image 20230506215746.png|300]]
 
@@ -45,6 +46,6 @@ What we _have_ proved is we can provide composable inputs that add style to a ma
 
 ---
 
-From here, we probably want to explore [[Upscaling Stable Diffusion Outputs]] to add more detail and resolution to the generated maps.
+From here, we probably want to explore [[Upscaling Stable Diffusion Outputs|Upscaling Stable Diffusion Outputs]] to add more detail and resolution to the generated maps.
 
-We also might want to explore [[Regional Prompting With Stable Diffusion]] to specify specific areas as a bedroom, tavern interior, forest, etc.
+We also might want to explore [[Regional Prompting With Stable Diffusion|Regional Prompting With Stable Diffusion]] to specify specific areas as a bedroom, tavern interior, forest, etc.
