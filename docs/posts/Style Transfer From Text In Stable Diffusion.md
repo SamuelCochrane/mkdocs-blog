@@ -1,10 +1,11 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-06-11
-title: 'Style Transfer From Text In Stable Diffusion'
-fileClass: [Note]
+title: Style Transfer From Text In Stable Diffusion
+fileClass:
+  - Note
 stage: 🌿 Fern
 share: true
 ---
@@ -26,7 +27,7 @@ By using img2img, we can provide an inital image as a starting position. Then, p
 >0.0 gives us the exact same picture.
 >A low value like 0.2 means only 20% of the pixels in the generated image should be new, and 80% should be the same.
 
-To further improve these results, we can pair this technique with a few [[ControlNet]] models to help keep the silhouettes consistent. 
+To further improve these results, we can pair this technique with a few [[ControlNet|ControlNet]] models to help keep the silhouettes consistent. 
 
 Openpose helps keep the pose & face consistent
 Canny/Lineart/Depth help keep the structure consistent
