@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2023-08-14
-dateModified: 2023-08-23
-fileClass: [Note]
+dateModified: 2023-12-11
+fileClass:
+  - Note
 image: 
 share: true
 stage: 🌿 Fern
@@ -12,7 +13,7 @@ title: Relationships Should Be Limited to Dimensions of Mutual Benefit
 
 # [[Relationships Should Be Limited to Dimensions of Mutual Benefit|Relationships Should Be Limited to Dimensions of Mutual Benefit]]
 
-> ![[How I Found Freedom in an Unfree World#^ref-59063|How I Found Freedom in an Unfree World > ^ref-59063]]
+> 
 
 Generally, you should keep relationships limited to the dimensions in which they are mutually beneficial for both parties.
 
@@ -37,6 +38,6 @@ Instead, you can just enjoy the relationship you _do_ have.
 If the person, or the circumstance, changes so that a dimension is now no longer beneficial, you can drop it without guilt and pain.
 
 If a friend gets into skiing, and you don't like skiing, you have no [[Obliger|Obligation]] to get dragged along in order to be "a good friend". 
-If they need help moving furniture, and you don't want to add "help each other move furniture" as a dimension, it's ok to say it's [[Not My Problem]].
+If they need help moving furniture, and you don't want to add "help each other move furniture" as a dimension, it's ok to say it's [[Not My Problem|Not My Problem]].
 
-[[Resentful|Resentment]] and boredom would make you a lousy friend if you joined, and you know it.
+[[Resentful|Resentment]] and [[boredom|boredom]] would make you a lousy friend if you joined, and you know it.

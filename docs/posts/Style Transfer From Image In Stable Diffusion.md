@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-06-25
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 stage: 🌱 Seedling
 share: true
@@ -14,9 +15,9 @@ title: Style Transfer From Image In Stable Diffusion
 
 Some styles aren't something we can describe in words, and it isn't something the model would be trained on. We need a way to provide an image and tell the model "do something like this".
 
-We can use [[T2I-Adapter|T2I-Adapter]] on top of [[Stable Diffusion|Stable Diffusion]] to allow for a style image as an additional input.
+We can use [[./T2I-Adapter|T2I-Adapter]] on top of [[Stable Diffusion|Stable Diffusion]] to allow for a style image as an additional input.
 
-Using the technique listed in [[Style Transfer From Text In Stable Diffusion|Style Transfer From Text In Stable Diffusion]], we just add one more step to provide a style image.
+Using the technique listed in [[./Style Transfer From Text In Stable Diffusion|Style Transfer From Text In Stable Diffusion]], we just add one more step to provide a style image.
 
 >[!note]- Example prompt: Sad Keanu in the style of minimalist line art
 >Model: AOM3+orangemix vae

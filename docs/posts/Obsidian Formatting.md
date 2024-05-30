@@ -1,57 +1,37 @@
 ---
-alias: Obsidian Styling
-cssClasses: embed-strict
+aliases:
+  - Obsidian Styling
+cssclasses:
+  - embed-strict
 date: 2022-12-12
 dateModified: 2023-09-06
 image: 
 share: true
-slug: obsidian-formatting
 stage: 
 title: Obsidian Formatting
+tags:
+  - someday
 ---
 
 # [[Obsidian Formatting|Obsidian Formatting]]
 
-Obsidian is a Markdown-based note-taking and knowledge base app. 
-
-We currently support the formats below:
+Obsidian should support the formats below:
 
 ---
-
-### Icons
-
-Support for FontAwesome icons
-
-`:fas_angles_right:` should render as :fas_angles_right:
-`:fas_dice:` should render as :fas_dice:
-
-These are anybodys guess: 
-- Roll: :fas_dice: :material-dice-multiple:
-- Strength: :muscle
-- Miss: :fas_minus: : material-numeric-6-box-multiple: :material-minus:
-- Weak Hit: :material-numeric-7-box-multiple: - :material-numeric-9-box-multiple:
-- Strong Hit: :fas_greater_than_equal: :material-numeric-10-box-multiple: :material-plus:
-- Stats: :fontawesome-solid-scroll: :material-bandage:  :material-run-fast: :material-speedometer: :fontawesome-solid-person-breastfeeding: :material-pill-multiple:
-- Move: :fas_angles_right:
-- Cost: :material-checkbox-multiple-marked-circle: :material-package-variant-closed: :fontawesome-solid-money-bills: :fontawesome-solid-money-bill-wave: :material-smoke-detector-variant: :material-smoke-detector-outline: :material-alpha-c-circle: :material-checkbox-multiple-blank-circle-outline: :material-hand-coin: :fontawesome-solid-coins:
-- Specific Move icons : :material-sword: :material-arrow-projectile: :fontawesome-solid-hands-asl-interpreting: :fontawesome-solid-handshake-angle: :material-chevron-triple-down: :material-expand-all: :material-head-dots-horizontal-outline: :fontawesome-solid-person-walking-dashed-line-arrow-right:
-- Harm: :material-water-circle: :fontawesome-solid-heart-circle-xmark: :material-heart-off: :material-heart-box: :material-heart-circle: :fontawesome-solid-heart-crack:
 
 ### Callouts
 
 Use the following syntax to denote a callout block: `> [!INFO]`.
 
-Learn more about callouts [[Use callouts|here]].
-
 ```markdown
 > [!INFO]
 > Here's a callout block.
-> It supports **markdown** and [[Internal link|wikilinks]].
+> It supports **markdown** and [[Obsidian Formatting|wikilinks]].
 ```
 
 > [!INFO]
 > Here's a callout block.
-> It supports **markdown** and [[Internal link|wikilinks]].
+> It supports **markdown** and [[Obsidian Formatting|wikilinks]].
 > 
 
 > [!note]-  [!note]
@@ -85,22 +65,22 @@ Learn more about callouts [[Use callouts|here]].
 ### Internal Linking
 
 ```md
-Link to a page: [[Internal link|Internal link]].
+Link to a page: [[Internal link]].
 ```
 
-Link to a page: [[Internal link|Internal link]].
+Link to a page: [[Obsidian Formatting|Obsidian Formatting]].
 
 ---
 
 ### Embeds
 
-Embed another file (read more about [[Embed files|Embed files]]). Here's an embedded section:
+Embed another file section:
 
 ```md
-![[Obsidian#What is Obsidian|Obsidian > What is Obsidian]]
+![[Obsidian Formatting#Internal Linking]]
 ```
 
-![[Test Note 2#First Header|Test Note 2 > First Header]]
+
 
 ---
 
@@ -233,7 +213,7 @@ Will look like this:
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
 ```md
-![[og-image.png|og-image.png]]
+![[og-image.png]]
 ```
 
 ![[og-image.png|og-image.png]]
@@ -537,7 +517,7 @@ You can also do inline math like $e^{2i\pi} = 1$ .
 
 You can also do inline math like $e^{2i\pi} = 1$ .
 
-To render math from LaTeX notation Obsidian uses [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html).
+To render math from [[LaTeX|LaTeX]] notation Obsidian uses [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html).
 For more information about the syntax, refer to [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
 For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
@@ -616,7 +596,7 @@ Biology --> Chemistry
 
 
 Obsidian supports linking to notes in Mermaid,
-these links will not show up on [[Graph view|Graph view]].
+these links will not show up on [[Graph view]].
 ````md
 ```mermaid
 graph TD
@@ -660,12 +640,42 @@ It looks like this if you follow the [[Format your notes#^376b9d|second option]]
 
 ## Developer Notes
 
-We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats|Accepted file formats]].
+We strive for maximum capability without breaking any existing formats, therefore we use a slightly unorthodox combination of flavors of markdown. It is broadly CommonMark, with the addition of some functionality from GitHub Flavored Markdown (GFM), some LaTeX support, and our chosen embed syntax, which you can read more about at [[Accepted file formats]].
 
 We intentionally do not support parsing markdown syntax and blank lines within HTML blocks. This is the result of an optimization to handle very large files and to support synchronization between editing and reading mode.
 
 
 ---
+
+## Icons
+
+- Obsidian
+			- [GitHub - aidenlx/obsidian-icon-shortcodes: Obsidian Plugin: Insert emoji and custom icons with shortcodes](https://github.com/aidenlx/obsidian-icon-shortcodes]
+- MKDocs - [Icons, Emojis - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
+	- The following icon sets are bundled with Material for MkDocs:
+		-  – [Material Design](https://materialdesignicons.com/)
+		-  – [FontAwesome](https://fontawesome.com/search?m=free)
+		-  – [Octicons](https://octicons.github.com/)
+		-  – [Simple Icons](https://simpleicons.org/)
+
+
+
+
+`:fontawesome-solid-dice:` should render as :fontawesome_solid_dice:
+`:material-bandage:` should render as :material-bandage:
+These are anybodys guess: 
+- Roll: :fontawesome_solid_dice: :rpg_awesome_perspective_dice_six:
+- Strength: :muscle
+- Miss: :fas_minus: : material-numeric-6-box-multiple: :material-minus:
+- Weak Hit: :material-numeric-7-box-multiple: - :material-numeric-9-box-multiple:
+- Strong Hit: :fas_greater_than_equal: :material-numeric-10-box-multiple: :material-plus:
+- Stats: :fontawesome-solid-scroll: :material-bandage:  :material-run-fast: :material-speedometer: :fontawesome-solid-person-breastfeeding: :material-pill-multiple:
+- Move: :fas_angles_right: 
+- Cost: :material-checkbox-multiple-marked-circle: :material-package-variant-closed: :fontawesome-solid-money-bills: :fontawesome-solid-money-bill-wave: :material-smoke-detector-variant: :material-smoke-detector-outline: :material-alpha-c-circle: :material-checkbox-multiple-blank-circle-outline: :material-hand-coin: :fontawesome-solid-coins:
+- Specific Move icons : :rpg_awesome_broadsword: :rpg_awesome_crossbow: :rpg_awesome_archer: :fontawesome_solid_hands_asl_interpreting:  :fontawesome_solid_handshake_angle: :luc_chevrons_down: :fontawesome_solid_expand_alt: :fontawesome_solid_hand_dots: :rpg_awesome_round_shield: :fontawesome_solid_person_walking:
+- Harm: :material-water-circle: :fontawesome_solid-heart-circle-xmark: :material-heart-off: :material-heart-box: :material-heart-circle: :fontawesome-solid-heart-crack:
+
+
 
 ## Obsidian Dialog Plugin
 

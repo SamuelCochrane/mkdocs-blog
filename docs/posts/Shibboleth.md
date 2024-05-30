@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-06-11
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 stage: 🌱 Seedling
 share: true
@@ -17,16 +18,16 @@ title: Shibboleth
 > 
 >— Judges 12:5–6
 
-A Shibboleth acts as a shared, community-wide password that separates out the [[In Group & Out Group]]. 
+A Shibboleth acts as a shared, community-wide password that separates out the [[In Group & Out Group|In Group & Out Group]]. 
 The mere fact you have the capability to answer correctly is enough to validate you.
 
-[[meme|meme]]s act as shibboleths. If you laugh at me saying "_And They Were **Roommates**_" or "_Uh, yeah, I sure **hope** it does_", I know we have some shared cultural context and how to get along with you along those lines. [[If you know, you know]].
+[[meme|meme]]s act as shibboleths. If you laugh at me saying "_And They Were **Roommates**_" or "_Uh, yeah, I sure **hope** it does_", I know we have some shared cultural context and how to get along with you along those lines. [[If you know, you know|If you know, you know]].
 
 Shibboleths are time and context based, and can expire. 
 
 If you say "_When does the narwhal bacon? At midnight._" you authenticate yourself as someone who was a reddit user in 2011, but not necessarily one who uses it today. 
-Or, since it's now common knowledge, someone who's just heard of it through [[Cultural Osmosis]]. Ironically, the word **Shibboleth** itself is no longer an effective shibboleth. 
+Or, since it's now common knowledge, someone who's just heard of it through [[Cultural Osmosis|Cultural Osmosis]]. Ironically, the word **Shibboleth** itself is no longer an effective shibboleth. 
 
 ### See Also
 
-- [[Nature Shibboleth|Nature Shibboleth]]s validate based on ability, rather than knowledge.
+- [[./Nature Shibboleth|Nature Shibboleth]]s validate based on ability, rather than knowledge.

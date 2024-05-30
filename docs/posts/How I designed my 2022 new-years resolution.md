@@ -1,5 +1,5 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-27
 dateModified: 2023-06-25
@@ -14,7 +14,7 @@ title: How I designed my 2022 new-years resolution
 
 How I designed my new-years resolution using structure goal design and motivational science.
 
-In this article, I'd like to detail how I designed my personal goals to set myself up for success, using what I've learned about [[Goal Design|Goal Design]] from my experience working in [[business intelligence]]. It was helpful for me, and hopefully it'll be helpful for you too. 
+In this article, I'd like to detail how I designed my personal goals to set myself up for success, using what I've learned about [[Goal Design|Goal Design]] from my experience working in [[business intelligence|business intelligence]]. It was helpful for me, and hopefully it'll be helpful for you too. 
 
 # Resolutions Vs Themes
 
@@ -22,15 +22,57 @@ I probably don't have to convince you that new years resolutions have issues.
 
 NYRs end up usually being too specific, too idealistic, and too fleeting to be actionable enough to result in real change. I'm not the first person to say this, nor will I be the last.
 
-As a result, I've adopted an alternative system popularized by [[CGP Grey|CGP Grey]] - [[Yearly Theme|Yearly Theme]]s.
+As a result, I've adopted an alternative system popularized by [[CGP Grey|CGP Grey]] - [[./Yearly Theme|Yearly Theme]]s.
 
-![[Yearly Theme#^definition|Yearly Theme > ^definition]]
+# [[./Yearly Theme|Yearly Theme]]
+
+Yearly Themes are an alternative to New Years Resolutions.
+
+popularized by [[CGP Grey|CGP Grey]]:
+
+![Your Theme - YouTube](https://www.youtube.com/watch?v=NVGuFdX5guE&embeds_loader_url_for_pings=aHR0cHM6Ly93d3cucmVtbm90ZS5jb20v&embeds_origin=aHR0cHM6Ly93d3cueW91dHViZS5jb20&source_ve_path=MjM4NTE&feature=emb_title)
+
+Instead of setting a highly granular goal like "run one mile every day", you set a much larger theme like _order, adventure,_ or _branching out_. 
+This theme gives you enough room to find your own goals, interests, and solutions within it. 
+
+Themes allow for your focus to change when you learn what's important and workable, while still making sure you have some domain to focus in. 
+Six months into the year you may discover something new. Should you do it? Yes, if it fits the theme. Themes are your [[heuristic|heuristic]] to slice on.
+
+> I like to think of a theme as an overarching tool that you are using to help guide you were thinking over the course of a year. 
+> Every day you got 100 million decisions to make about whatever
+> With a theme you’re trying to shape those decision. It helps shape in those moments that if there’s like a tie breaker between deciding something one way or another, you should lean in the direction that more closely aligns with your theme
+
+Themes allow for choice, for [[Bottom-Up Design|Bottom-Up Design]]. After the theme is set, _you_ decide (and keep deciding) how to get there.
+
+[[North Star-ing|North Star-ing]]
+It’s a [[North Star|North Star]]. A thing that you move towards but never actually reach.
+
+Name should be ‘resonant’. Not logical process, feeling process. What name clicks, makes you feel something.
+
+### Creating Yearly Themes
+
+to ideate: [[Get Your Shit Together|Get it all out on paper]], find overlaps.
+cut out what doesn't belong and doesn't really resonate. [[Don't Should All Over Yourself|Don't Should All Over Yourself]].
+
+### My Yearly Themes
+
+- 2020 - [[The Year Of Solid Foundations|The Year Of Solid Foundations]]
+- 2021 - [[The Year Of Actualization|The Year Of Actualization]]
+- 2022 -[[The Year Of Connection|The Year Of Connection]]
+- [[2023|2023]] - [[The Year of Making It Happen|The Year of Making It Happen]]
+	- 2023 winter - [[The Year Of Solid Foundations 2|The Year Of Solid Foundations 2]]
+- 2024 - [[The Year of Wearing My Heart On My Sleeve|The Year of Wearing My Heart On My Sleeve]]
+
+### See Also
+
+- PZ grey talking about themes on cortex
+
 
 This idea of prioritizing personal choice is echoed in one my favorite books on goal design: [[The Game of Work|The Game of Work]], a book that has informed my own views on [[Goal Design|Goal Design]] and something I'll be leveraging heavily throughout the article. 
 
 The core difference between work and play is, essentially, a higher degree of personal choice of methods.
 
-![[The Game of Work#^ref-23382|The Game of Work > ^ref-23382]]
+
 
 When people feel that they have no choice in what they are doing, they lose their enthusiasm, and performance suffers. On the flipside, most people become committed to what they freely choose. 
 
@@ -43,7 +85,7 @@ Likewise, I like how this theme lets me decide for myself how to tackle these th
 
 These are flexible enough that no matter what I end up doing at different points in the year, I have some way of connecting it to my goals.
 
-Last year was [[The Year Of Actualization]] for me, focused on applying and putting into practice a lot of the things I already knew. While I wasn't perfect at it, it did end up being something I more or less had in the back of my mind for the entire year - something most NYRs can only dream of. 
+Last year was [[The Year Of Actualization|The Year Of Actualization]] for me, focused on applying and putting into practice a lot of the things I already knew. While I wasn't perfect at it, it did end up being something I more or less had in the back of my mind for the entire year - something most NYRs can only dream of. 
 
 My theme this year is the [[The Year Of Connection|The Year Of Connection]], which has three high-level focuses within it. 
 1. Connect To Ideas
@@ -53,13 +95,13 @@ My theme this year is the [[The Year Of Connection|The Year Of Connection]], whi
 # Setting up the Goals
 
 From this high-level theme, I'm going to break it down into some specific measurable buckets. These can (and should) change over time as my priorities shift. 
-- [[OKRs]] 
+- [[OKRs|OKRs]] 
 	- I want to track my three aforementioned sub-themes as OKRs, and evaluate how well I'm doing in each area. 
-- [[KPIs]]  
+- [[KPIs|KPIs]]  
 	- These are the specific trackable things I'm doing. Number of flashcards memorized, number of people added on LinkedIn, etc. Each one should roll up to an OKR. 
 
 - I created 5 KPIs to track on a regular basis. ^fjdgsd
-	1. Clear my daily [[RemNote]] (flashcard) queue. (OKR: Ideas)
+	1. Clear my daily [[RemNote|RemNote]] (flashcard) queue. (OKR: Ideas)
 	2. Learn a new concept (OKR: Ideas)
 	3. Get out of the house (OKR: Connectible)
 	4. [[Publish|Publish]] something (OKR: Connectible)
@@ -67,29 +109,28 @@ From this high-level theme, I'm going to break it down into some specific measur
 
 ## Measurable and Specific
 
-![[The Game of Work#^ref-43090|The Game of Work > ^ref-43090]]
+
 
 All of these KPIs were then further refined into trackable metrics. I specifically chose metrics that were atomic - the sorts of goals you can point to.  
 
-![[The Game of Work#^5yuj98|The Game of Work > ^5yuj98]]
+
 
 I can conceptualize "work from a coffee shop today" better than I can "spend 250 minutes at a coffee shop today", and I don't personally see the need to add the increased tracking-cost of recording things at a higher granularity.
 
  This structure is also more inflation-proof and maps better to the actual value I'm trying to obtain from the task. 
 
-![[The Game of Work#^jjctwk|The Game of Work > ^jjctwk]]
-
+[[Goals Are Best Stated in Inflation-Proof Terms|Goals Are Best Stated in Inflation-Proof Terms]]  
 By inflation, I refer to the sort of metric-hacking that occurs when we track something too granularly. 
 
 For example, if I set a goal of "publish X number of words a week" vs "publish something meaningful a week", I would be incentivized over time to quickly pump out high word-count garbage, because the goal has created a structure of "more words = more good".
 
  I'd rather publish something that is only as long as it needs to be to provide value.
 
-![[Winston Churchill#^pglb2wA|Winston Churchill > ^pglb2wA]]
+
 
 ## Time-bound
 
-![[The Game of Work#^kckywi|The Game of Work > ^kckywi]]
+
 
 Each of the goals was also set to have a rate of completion: 1x/week, 4x/week, etc.
 
@@ -109,7 +150,7 @@ With this short lifespan, I allow myself three months to do these goals, then a 
 
 Part of my goal is to leverage the motivational concepts of [[Zeigarnik Effect|Zeigarnik Effect]] and [[Progress Stacking|Progress Stacking]]. 
 If you've ever played an MMORPG, this is a familiar concept.
-![[Progress Stacking#Example: Quest design|Progress Stacking > Example: Quest design]]
+
 
 Here's some of the ways I plan to leverage the same idea:
 - As I learn a concept, I'm taking detailed notes. Once I'm done learning, I'm basically 80% of the way to an article I can publish.
@@ -128,6 +169,6 @@ Maybe Fast AI has a great chapter on learning CNNs, whereas I'd like to switch o
 
 ## You Can't Win without a Goal
 
-With all of these ideas in mind, my hope is that I've set up a stack of well-structured goals that make it possible for me to stay oriented and motivated over the longer term, since Motivation only lasts about two weeks.
+With all of these ideas in mind, my hope is that I've set up a stack of well-structured goals that make it possible for me to stay oriented and motivated over the longer term, since [[Motivation|Motivation]] only lasts about two weeks.
 
 In Part 2, [[Designing my daily scorecard for the The Year of Connection|Designing my daily scorecard for the The Year of Connection]], I'll detail how I actually implemented all this using task management and visualization software ([[ClickUp|ClickUp]] and [[PowerBI|PowerBI]]).

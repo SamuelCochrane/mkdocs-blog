@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-07-07
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 share: true
 stage: 🌱 Seedling
@@ -23,7 +24,7 @@ This is a trick I first heard about on the show Shrinking, and I have to say it 
 
 The music creates a norm: Here are other people being sad, it isn't a big deal if I join them.
 
-The [[Timeboxing|Timeboxing]] creates context: It allows your brain to [[Hyperfocus]] on the emotion without being distracted by other things that come up. It's similar to setting a meditation timer. If your brain starts thinking about chores, it's easy enough to remind it you only have 5 minutes left and can deal with the chores after.
+The [[Time Boxing|Time Boxing]] creates context: It allows your brain to [[Hyperfocus|Hyperfocus]] on the emotion without being distracted by other things that come up. It's similar to setting a meditation timer. If your brain starts thinking about chores, it's easy enough to remind it you only have 5 minutes left and can deal with the chores after.
 
 All of this creates a safe place to grieve, to be "not ok". This makes it useful for dealing with [[Emotional Blockage|Emotional Blockage]], which is often caused by not having a safe context to let out trapped emotions.
 

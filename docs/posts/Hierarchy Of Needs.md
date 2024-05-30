@@ -1,10 +1,11 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-06-25
-fileClass: [Note]
-image: "https://www.simplypsychology.org/wp-content/uploads/maslow-needs3.jpg"
+fileClass:
+  - Note
+image: https://www.simplypsychology.org/wp-content/uploads/maslow-needs3.jpg
 share: true
 slug: hierarchy-of-needs
 stage: 🌱 Seedling
@@ -44,7 +45,7 @@ title: Hierarchy Of Needs
 - Confidence
 - Achievement
 - Respect from others (status)
-- [[Individuation]]
+- [[Individuation|Individuation]]
 
 ##### Self Actualization
 
@@ -74,5 +75,5 @@ graph TD
 ### See Also
 
 - [Maslow's Hierarchy of Needs](https://www.simplypsychology.org/maslow.html)
-- [[Deficiency Needs Vs Growth Needs|Deficiency Needs Vs Growth Needs]]
+- [[./Deficiency Needs Vs Growth Needs|Deficiency Needs Vs Growth Needs]]
 - [[Sex is a core need|Sex is a core need]]

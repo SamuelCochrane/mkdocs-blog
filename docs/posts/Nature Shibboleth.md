@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-06-11
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 stage: 🌿 Fern
 share: true
@@ -12,7 +13,7 @@ title: Nature Shibboleth
 
 # [[Nature Shibboleth|Nature Shibboleth]]
 
-[[Shibboleth|Shibboleth]]'s authenticate group membership based on **knowledge**. If you know the secret handshake, you're one of us.
+[[./Shibboleth|Shibboleth]]'s authenticate group membership based on **knowledge**. If you know the secret handshake, you're one of us.
 
 [[Nature Shibboleth|Nature Shibboleth]]'s authenticate group membership based on **ability**. If you can fly a plane, you're one of us.
 

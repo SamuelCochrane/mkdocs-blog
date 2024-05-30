@@ -26,7 +26,7 @@ You're probably seeking something closer to [[Gratitude|Gratitude]], which is re
 
 ### Happiness is a By-product
 
-Contentment comes about when your [[Hierarchy Of Needs|Hierarchy Of Needs]] is well-handled. Handling that will naturally result in more happiness than directly "trying to be more happy" will.
+Contentment comes about when your [[./Hierarchy Of Needs|Hierarchy Of Needs]] is well-handled. Handling that will naturally result in more happiness than directly "trying to be more happy" will.
 
 [[When a metric becomes a goal it ceases to be a good metric|When a metric becomes a goal it ceases to be a good metric]]. The feeling of happiness itself is fleeting. If you directly aim at increasing it, you'll be over-tuned to fluctuations. You freak out about having a bad day.
 

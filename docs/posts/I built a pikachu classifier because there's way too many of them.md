@@ -1,9 +1,9 @@
 ---
 date: 2022-01-18
 dateModified: 2023-09-05
-image: "Attachments/Pasted image 20221227122948.png"
+image: Attachments/Pasted image 20221227122948.png
 share: true
-title: "I built a pikachu classifier because there's way too many of them"
+title: I built a pikachu classifier because there's way too many of them
 ---
 
 # [[I built a pikachu classifier because there's way too many of them|I built a pikachu classifier because there's way too many of them]]

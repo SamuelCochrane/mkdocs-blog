@@ -1,20 +1,21 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
-dateModified: 2023-06-13
+dateModified: 2023-12-03
+fileClass:
+  - Note
 image: 
-stage: 🌿 Fern
 share: true
+stage: 🌿 Fern
 title: SCRS
-fileClass: [Note]
 ---
 
 # [[SCRS|SCRS]]
 
-**S**imple **C**onsistent **R**esults via a **S**ystem
+> [!tldr] **S**imple **C**onsistent **R**esults via a **S**ystem
 
-A [[model|model]] for selling/communicating the value of a [[Recipe|Recipe]].
+A [[model|model]] for [[Sales|Selling]]/communicating the value of a [[Recipe|Recipe]].
 To be maximally enticing, an offer must be all four.
 
 **Simple**: Must be easy to understand, and hard to mess up
@@ -24,4 +25,4 @@ To be maximally enticing, an offer must be all four.
 
 ### See Also
 
-- [[Alex Becker]]
+- [[Alex Becker|Alex Becker]]

@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-12-26
-dateModified: 2023-09-04
-fileClass: [Note]
+dateModified: 2023-12-11
+fileClass:
+  - Note
 image: 
 share: true
 stage: 🌱 Seedling
@@ -49,11 +50,11 @@ Long-distance relationships make Proximity and Intensity difficult. An engaging 
 You don't need all of these values to be high. 
 Plenty of friendships involve meeting up once every few years for several hours of intense catching up and reminiscing. Plenty of others involve low-intensity cohabitation with someone you're comfortable with.
 
-You can have different types of friendships with different people. [[Relationships Should Be Limited to Dimensions of Mutual Benefit|Relationships Should Be Limited to Dimensions of Mutual Benefit]].
+You can have different types of friendships with different people. [[./Relationships Should Be Limited to Dimensions of Mutual Benefit|Relationships Should Be Limited to Dimensions of Mutual Benefit]].
 
 ### See Also
 
 - [[The Like-Switch|The Like-Switch]]
 - [The Friendship Formula | Psychology Today](https://www.psychologytoday.com/us/blog/let-their-words-do-the-talking/201911/the-friendship-formula)
 - [It Turns Out There Is A Formula For Improving Relationships | by Jonah Bloom | Kinship Mag | Medium](https://medium.com/kinshipmag/it-turns-out-there-is-a-formula-for-improving-relationships-1652508f4023)
-- [Relationship ROI: What Are Your Friendships Really Costing You? | HuffPost Life](https://www.huffpost.com/entry/relationship-roi-what-are-your-friendships-really-costing-you_b_7744388) Current Value + Future Growth Potential - (3x)Emotional Expensiveness
+- [Relationship ROI: What Are Your Friendships Really Costing You? | HuffPost Life](https://www.huffpost.com/entry/relationship-roi-what-are-your-friendships-really-costing-you_b_7744388) Current Value + Future Growth Potential - (3x)Emotional Expense

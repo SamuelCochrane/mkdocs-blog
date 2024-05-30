@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2023-07-06
 dateModified: 2023-07-06
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 share: true
 stage: 🌱 Seedling
@@ -40,7 +41,7 @@ combinations of neighboring emotions
 | love           | joy          | trust        |
 | submission     | trust        | fear         |
 | alarm          | fear         | surprise     |
-| dissapointment | surprise     | sadness      |
+| dissapointment/loss | surprise     | sadness      |
 | remorse        | sadness      | disgust      |
 | contempt       | disgust      | anger        |
 | aggression     | anger        | anticipation |

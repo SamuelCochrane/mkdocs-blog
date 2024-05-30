@@ -3,8 +3,9 @@ alias: 5 Whys
 cssClasses: embed-strict
 date: 2022-12-31
 dateCreated: 
-dateModified: 2023-08-20
-fileClass: [Note]
+dateModified: 2023-12-24
+fileClass:
+  - Note
 image: 
 note-stage: 
 share: true
@@ -14,11 +15,13 @@ title: North Star-ing
 
 # [[North Star-ing|North Star-ing]]
 
-> Nothing contributes so much to tranquilize the mind as a steady purpose—a point on which the soul may fix its intellectual eye. 
-> -- Mary Shelley, Frankenstein
+> Nothing contributes so much to tranquilize the mind as a steady purpose — a point on which the soul may fix its intellectual eye. 
+> – Mary Shelley, Frankenstein
 
-You can only [[Begin With The End In Mind]] if you know what it is.
+You can only [[Begin With The End In Mind|Begin With The End In Mind]] if you know what it is.
 North Star-ing, also called 5 Whys, can be a helpful exercise to remember the ultimate [[goal|goal]].
+
+> [!tip] [[North Star|North Star]]s are goals which orient you, but which you never actually need to _reach_.
 
 Like a kid, keep asking Why. _Why should I care?_
 Usually, you will find a way to connect it to larger goals and higher ideas.
