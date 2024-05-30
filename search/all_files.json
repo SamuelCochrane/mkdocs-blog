@@ -1,0 +1,1310 @@
+[
+    {
+        "src_uri": "index.md",
+        "dest_uri": "./",
+        "name": "index",
+        "url": "./"
+    },
+    {
+        "src_uri": ".authors.yml",
+        "dest_uri": ".authors.yml",
+        "name": ".authors",
+        "url": ".authors.yml"
+    },
+    {
+        "src_uri": ".meta.yml",
+        "dest_uri": ".meta.yml",
+        "name": ".meta",
+        "url": ".meta.yml"
+    },
+    {
+        "src_uri": "assets/favicon.ico",
+        "dest_uri": "assets/favicon.ico",
+        "name": "favicon",
+        "url": "assets/favicon.ico"
+    },
+    {
+        "src_uri": "assets/icon.svg",
+        "dest_uri": "assets/icon.svg",
+        "name": "icon",
+        "url": "assets/icon.svg"
+    },
+    {
+        "src_uri": "assets/lovecoffee.svg",
+        "dest_uri": "assets/lovecoffee.svg",
+        "name": "lovecoffee",
+        "url": "assets/lovecoffee.svg"
+    },
+    {
+        "src_uri": "assets/css/customization.css",
+        "dest_uri": "assets/css/customization.css",
+        "name": "customization",
+        "url": "assets/css/customization.css"
+    },
+    {
+        "src_uri": "assets/images/2023-06-22 14.28.22.excalidraw.png",
+        "dest_uri": "assets/images/2023-06-22%2014.28.22.excalidraw.png",
+        "name": "2023-06-22 14.28.22.excalidraw",
+        "url": "assets/images/2023-06-22%2014.28.22.excalidraw.png"
+    },
+    {
+        "src_uri": "assets/images/2023-07-07 2023-07-07 15.19.44.excalidraw.dark.png",
+        "dest_uri": "assets/images/2023-07-07%202023-07-07%2015.19.44.excalidraw.dark.png",
+        "name": "2023-07-07 2023-07-07 15.19.44.excalidraw.dark",
+        "url": "assets/images/2023-07-07%202023-07-07%2015.19.44.excalidraw.dark.png"
+    },
+    {
+        "src_uri": "assets/images/Knowledge-Graph.png",
+        "dest_uri": "assets/images/Knowledge-Graph.png",
+        "name": "Knowledge-Graph",
+        "url": "assets/images/Knowledge-Graph.png"
+    },
+    {
+        "src_uri": "assets/images/Pages and Notes Structure 2023-05-02 19.43.06.excalidraw.png",
+        "dest_uri": "assets/images/Pages%20and%20Notes%20Structure%202023-05-02%2019.43.06.excalidraw.png",
+        "name": "Pages and Notes Structure 2023-05-02 19.43.06.excalidraw",
+        "url": "assets/images/Pages%20and%20Notes%20Structure%202023-05-02%2019.43.06.excalidraw.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20221227122935.png",
+        "dest_uri": "assets/images/Pasted%20image%2020221227122935.png",
+        "name": "Pasted image 20221227122935",
+        "url": "assets/images/Pasted%20image%2020221227122935.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230502174006.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230502174006.png",
+        "name": "Pasted image 20230502174006",
+        "url": "assets/images/Pasted%20image%2020230502174006.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230506214553.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230506214553.png",
+        "name": "Pasted image 20230506214553",
+        "url": "assets/images/Pasted%20image%2020230506214553.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230506214609.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230506214609.png",
+        "name": "Pasted image 20230506214609",
+        "url": "assets/images/Pasted%20image%2020230506214609.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230506215746.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230506215746.png",
+        "name": "Pasted image 20230506215746",
+        "url": "assets/images/Pasted%20image%2020230506215746.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230620160458.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230620160458.png",
+        "name": "Pasted image 20230620160458",
+        "url": "assets/images/Pasted%20image%2020230620160458.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230623091446.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230623091446.png",
+        "name": "Pasted image 20230623091446",
+        "url": "assets/images/Pasted%20image%2020230623091446.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230623095317.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230623095317.png",
+        "name": "Pasted image 20230623095317",
+        "url": "assets/images/Pasted%20image%2020230623095317.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230623095327.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230623095327.png",
+        "name": "Pasted image 20230623095327",
+        "url": "assets/images/Pasted%20image%2020230623095327.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230623095738.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230623095738.png",
+        "name": "Pasted image 20230623095738",
+        "url": "assets/images/Pasted%20image%2020230623095738.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230624122740.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230624122740.png",
+        "name": "Pasted image 20230624122740",
+        "url": "assets/images/Pasted%20image%2020230624122740.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230624162236.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230624162236.png",
+        "name": "Pasted image 20230624162236",
+        "url": "assets/images/Pasted%20image%2020230624162236.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230624163213.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230624163213.png",
+        "name": "Pasted image 20230624163213",
+        "url": "assets/images/Pasted%20image%2020230624163213.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230624164116.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230624164116.png",
+        "name": "Pasted image 20230624164116",
+        "url": "assets/images/Pasted%20image%2020230624164116.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230624164400.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230624164400.png",
+        "name": "Pasted image 20230624164400",
+        "url": "assets/images/Pasted%20image%2020230624164400.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230624165052.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230624165052.png",
+        "name": "Pasted image 20230624165052",
+        "url": "assets/images/Pasted%20image%2020230624165052.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230712140556.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230712140556.png",
+        "name": "Pasted image 20230712140556",
+        "url": "assets/images/Pasted%20image%2020230712140556.png"
+    },
+    {
+        "src_uri": "assets/images/Pasted image 20230906134327.png",
+        "dest_uri": "assets/images/Pasted%20image%2020230906134327.png",
+        "name": "Pasted image 20230906134327",
+        "url": "assets/images/Pasted%20image%2020230906134327.png"
+    },
+    {
+        "src_uri": "assets/images/Reddit-Productivity-feature-image-in-ClickUp-blog.png",
+        "dest_uri": "assets/images/Reddit-Productivity-feature-image-in-ClickUp-blog.png",
+        "name": "Reddit-Productivity-feature-image-in-ClickUp-blog",
+        "url": "assets/images/Reddit-Productivity-feature-image-in-ClickUp-blog.png"
+    },
+    {
+        "src_uri": "assets/images/What Gets Repeated Gets Remembered 2023-05-04 21.19.43.excalidraw.png",
+        "dest_uri": "assets/images/What%20Gets%20Repeated%20Gets%20Remembered%202023-05-04%2021.19.43.excalidraw.png",
+        "name": "What Gets Repeated Gets Remembered 2023-05-04 21.19.43.excalidraw",
+        "url": "assets/images/What%20Gets%20Repeated%20Gets%20Remembered%202023-05-04%2021.19.43.excalidraw.png"
+    },
+    {
+        "src_uri": "assets/images/chart (1).png",
+        "dest_uri": "assets/images/chart%20%281%29.png",
+        "name": "chart (1)",
+        "url": "assets/images/chart%20%281%29.png"
+    },
+    {
+        "src_uri": "assets/images/chocolate-chip-cookies.png",
+        "dest_uri": "assets/images/chocolate-chip-cookies.png",
+        "name": "chocolate-chip-cookies",
+        "url": "assets/images/chocolate-chip-cookies.png"
+    },
+    {
+        "src_uri": "assets/images/download (1).png",
+        "dest_uri": "assets/images/download%20%281%29.png",
+        "name": "download (1)",
+        "url": "assets/images/download%20%281%29.png"
+    },
+    {
+        "src_uri": "assets/images/illustration.png",
+        "dest_uri": "assets/images/illustration.png",
+        "name": "illustration",
+        "url": "assets/images/illustration.png"
+    },
+    {
+        "src_uri": "assets/images/map_24x24 (1).png",
+        "dest_uri": "assets/images/map_24x24%20%281%29.png",
+        "name": "map_24x24 (1)",
+        "url": "assets/images/map_24x24%20%281%29.png"
+    },
+    {
+        "src_uri": "assets/images/sad-keanu-meme.webp",
+        "dest_uri": "assets/images/sad-keanu-meme.webp",
+        "name": "sad-keanu-meme",
+        "url": "assets/images/sad-keanu-meme.webp"
+    },
+    {
+        "src_uri": "assets/images/xzivdk4kgjxejm2qkbpb.png",
+        "dest_uri": "assets/images/xzivdk4kgjxejm2qkbpb.png",
+        "name": "xzivdk4kgjxejm2qkbpb",
+        "url": "assets/images/xzivdk4kgjxejm2qkbpb.png"
+    },
+    {
+        "src_uri": "assets/images/zelda-dark-world.png",
+        "dest_uri": "assets/images/zelda-dark-world.png",
+        "name": "zelda-dark-world",
+        "url": "assets/images/zelda-dark-world.png"
+    },
+    {
+        "src_uri": "assets/images/zelda-light-world.png",
+        "dest_uri": "assets/images/zelda-light-world.png",
+        "name": "zelda-light-world",
+        "url": "assets/images/zelda-light-world.png"
+    },
+    {
+        "src_uri": "assets/screenshots/annotations.png",
+        "dest_uri": "assets/screenshots/annotations.png",
+        "name": "annotations",
+        "url": "assets/screenshots/annotations.png"
+    },
+    {
+        "src_uri": "assets/screenshots/back-to-top.png",
+        "dest_uri": "assets/screenshots/back-to-top.png",
+        "name": "back-to-top",
+        "url": "assets/screenshots/back-to-top.png"
+    },
+    {
+        "src_uri": "assets/screenshots/consent.png",
+        "dest_uri": "assets/screenshots/consent.png",
+        "name": "consent",
+        "url": "assets/screenshots/consent.png"
+    },
+    {
+        "src_uri": "assets/screenshots/content-tabs-link.png",
+        "dest_uri": "assets/screenshots/content-tabs-link.png",
+        "name": "content-tabs-link",
+        "url": "assets/screenshots/content-tabs-link.png"
+    },
+    {
+        "src_uri": "assets/screenshots/content-tabs.png",
+        "dest_uri": "assets/screenshots/content-tabs.png",
+        "name": "content-tabs",
+        "url": "assets/screenshots/content-tabs.png"
+    },
+    {
+        "src_uri": "assets/screenshots/creating-your-site.png",
+        "dest_uri": "assets/screenshots/creating-your-site.png",
+        "name": "creating-your-site",
+        "url": "assets/screenshots/creating-your-site.png"
+    },
+    {
+        "src_uri": "assets/screenshots/feedback-report.png",
+        "dest_uri": "assets/screenshots/feedback-report.png",
+        "name": "feedback-report",
+        "url": "assets/screenshots/feedback-report.png"
+    },
+    {
+        "src_uri": "assets/screenshots/hide-navigation-toc.png",
+        "dest_uri": "assets/screenshots/hide-navigation-toc.png",
+        "name": "hide-navigation-toc",
+        "url": "assets/screenshots/hide-navigation-toc.png"
+    },
+    {
+        "src_uri": "assets/screenshots/hide-navigation.png",
+        "dest_uri": "assets/screenshots/hide-navigation.png",
+        "name": "hide-navigation",
+        "url": "assets/screenshots/hide-navigation.png"
+    },
+    {
+        "src_uri": "assets/screenshots/hide-toc.png",
+        "dest_uri": "assets/screenshots/hide-toc.png",
+        "name": "hide-toc",
+        "url": "assets/screenshots/hide-toc.png"
+    },
+    {
+        "src_uri": "assets/screenshots/language-selection.png",
+        "dest_uri": "assets/screenshots/language-selection.png",
+        "name": "language-selection",
+        "url": "assets/screenshots/language-selection.png"
+    },
+    {
+        "src_uri": "assets/screenshots/navigation-expand.png",
+        "dest_uri": "assets/screenshots/navigation-expand.png",
+        "name": "navigation-expand",
+        "url": "assets/screenshots/navigation-expand.png"
+    },
+    {
+        "src_uri": "assets/screenshots/navigation-index-off.png",
+        "dest_uri": "assets/screenshots/navigation-index-off.png",
+        "name": "navigation-index-off",
+        "url": "assets/screenshots/navigation-index-off.png"
+    },
+    {
+        "src_uri": "assets/screenshots/navigation-index-on.png",
+        "dest_uri": "assets/screenshots/navigation-index-on.png",
+        "name": "navigation-index-on",
+        "url": "assets/screenshots/navigation-index-on.png"
+    },
+    {
+        "src_uri": "assets/screenshots/navigation-path-off.png",
+        "dest_uri": "assets/screenshots/navigation-path-off.png",
+        "name": "navigation-path-off",
+        "url": "assets/screenshots/navigation-path-off.png"
+    },
+    {
+        "src_uri": "assets/screenshots/navigation-path-on.png",
+        "dest_uri": "assets/screenshots/navigation-path-on.png",
+        "name": "navigation-path-on",
+        "url": "assets/screenshots/navigation-path-on.png"
+    },
+    {
+        "src_uri": "assets/screenshots/navigation-sections.png",
+        "dest_uri": "assets/screenshots/navigation-sections.png",
+        "name": "navigation-sections",
+        "url": "assets/screenshots/navigation-sections.png"
+    },
+    {
+        "src_uri": "assets/screenshots/navigation-tabs-collapsed.png",
+        "dest_uri": "assets/screenshots/navigation-tabs-collapsed.png",
+        "name": "navigation-tabs-collapsed",
+        "url": "assets/screenshots/navigation-tabs-collapsed.png"
+    },
+    {
+        "src_uri": "assets/screenshots/navigation-tabs-sticky.png",
+        "dest_uri": "assets/screenshots/navigation-tabs-sticky.png",
+        "name": "navigation-tabs-sticky",
+        "url": "assets/screenshots/navigation-tabs-sticky.png"
+    },
+    {
+        "src_uri": "assets/screenshots/navigation-tabs.png",
+        "dest_uri": "assets/screenshots/navigation-tabs.png",
+        "name": "navigation-tabs",
+        "url": "assets/screenshots/navigation-tabs.png"
+    },
+    {
+        "src_uri": "assets/screenshots/navigation.png",
+        "dest_uri": "assets/screenshots/navigation.png",
+        "name": "navigation",
+        "url": "assets/screenshots/navigation.png"
+    },
+    {
+        "src_uri": "assets/screenshots/search-highlighting.png",
+        "dest_uri": "assets/screenshots/search-highlighting.png",
+        "name": "search-highlighting",
+        "url": "assets/screenshots/search-highlighting.png"
+    },
+    {
+        "src_uri": "assets/screenshots/search-share.png",
+        "dest_uri": "assets/screenshots/search-share.png",
+        "name": "search-share",
+        "url": "assets/screenshots/search-share.png"
+    },
+    {
+        "src_uri": "assets/screenshots/search-suggestions.png",
+        "dest_uri": "assets/screenshots/search-suggestions.png",
+        "name": "search-suggestions",
+        "url": "assets/screenshots/search-suggestions.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-accent.png",
+        "dest_uri": "assets/screenshots/social-cards-accent.png",
+        "name": "social-cards-accent",
+        "url": "assets/screenshots/social-cards-accent.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-debug.png",
+        "dest_uri": "assets/screenshots/social-cards-debug.png",
+        "name": "social-cards-debug",
+        "url": "assets/screenshots/social-cards-debug.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-invert.png",
+        "dest_uri": "assets/screenshots/social-cards-invert.png",
+        "name": "social-cards-invert",
+        "url": "assets/screenshots/social-cards-invert.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-0.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-0.png",
+        "name": "social-cards-layer-0",
+        "url": "assets/screenshots/social-cards-layer-0.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-1.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-1.png",
+        "name": "social-cards-layer-1",
+        "url": "assets/screenshots/social-cards-layer-1.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-2.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-2.png",
+        "name": "social-cards-layer-2",
+        "url": "assets/screenshots/social-cards-layer-2.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-3.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-3.png",
+        "name": "social-cards-layer-3",
+        "url": "assets/screenshots/social-cards-layer-3.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-4.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-4.png",
+        "name": "social-cards-layer-4",
+        "url": "assets/screenshots/social-cards-layer-4.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-5.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-5.png",
+        "name": "social-cards-layer-5",
+        "url": "assets/screenshots/social-cards-layer-5.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-background-color.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-background-color.png",
+        "name": "social-cards-layer-background-color",
+        "url": "assets/screenshots/social-cards-layer-background-color.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-background-image.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-background-image.png",
+        "name": "social-cards-layer-background-image",
+        "url": "assets/screenshots/social-cards-layer-background-image.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-background.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-background.png",
+        "name": "social-cards-layer-background",
+        "url": "assets/screenshots/social-cards-layer-background.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-icon-circles.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-icon-circles.png",
+        "name": "social-cards-layer-icon-circles",
+        "url": "assets/screenshots/social-cards-layer-icon-circles.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-icon.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-icon.png",
+        "name": "social-cards-layer-icon",
+        "url": "assets/screenshots/social-cards-layer-icon.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-size.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-size.png",
+        "name": "social-cards-layer-size",
+        "url": "assets/screenshots/social-cards-layer-size.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-typography-align.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-typography-align.png",
+        "name": "social-cards-layer-typography-align",
+        "url": "assets/screenshots/social-cards-layer-typography-align.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-typography-ellipsis.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-typography-ellipsis.png",
+        "name": "social-cards-layer-typography-ellipsis",
+        "url": "assets/screenshots/social-cards-layer-typography-ellipsis.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-typography-shrink.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-typography-shrink.png",
+        "name": "social-cards-layer-typography-shrink",
+        "url": "assets/screenshots/social-cards-layer-typography-shrink.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-layer-typography.png",
+        "dest_uri": "assets/screenshots/social-cards-layer-typography.png",
+        "name": "social-cards-layer-typography",
+        "url": "assets/screenshots/social-cards-layer-typography.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards-variant.png",
+        "dest_uri": "assets/screenshots/social-cards-variant.png",
+        "name": "social-cards-variant",
+        "url": "assets/screenshots/social-cards-variant.png"
+    },
+    {
+        "src_uri": "assets/screenshots/social-cards.png",
+        "dest_uri": "assets/screenshots/social-cards.png",
+        "name": "social-cards",
+        "url": "assets/screenshots/social-cards.png"
+    },
+    {
+        "src_uri": "assets/screenshots/tags-index.png",
+        "dest_uri": "assets/screenshots/tags-index.png",
+        "name": "tags-index",
+        "url": "assets/screenshots/tags-index.png"
+    },
+    {
+        "src_uri": "assets/screenshots/tags-search.png",
+        "dest_uri": "assets/screenshots/tags-search.png",
+        "name": "tags-search",
+        "url": "assets/screenshots/tags-search.png"
+    },
+    {
+        "src_uri": "assets/screenshots/tags.png",
+        "dest_uri": "assets/screenshots/tags.png",
+        "name": "tags",
+        "url": "assets/screenshots/tags.png"
+    },
+    {
+        "src_uri": "assets/screenshots/toc-integrate.png",
+        "dest_uri": "assets/screenshots/toc-integrate.png",
+        "name": "toc-integrate",
+        "url": "assets/screenshots/toc-integrate.png"
+    },
+    {
+        "src_uri": "assets/screenshots/version-warning.png",
+        "dest_uri": "assets/screenshots/version-warning.png",
+        "name": "version-warning",
+        "url": "assets/screenshots/version-warning.png"
+    },
+    {
+        "src_uri": "assets/screenshots/versioning.png",
+        "dest_uri": "assets/screenshots/versioning.png",
+        "name": "versioning",
+        "url": "assets/screenshots/versioning.png"
+    },
+    {
+        "src_uri": "posts/1000 True Fans.md",
+        "dest_uri": "posts/1000%20True%20Fans/",
+        "name": "1000 True Fans",
+        "url": "posts/1000%20True%20Fans/"
+    },
+    {
+        "src_uri": "posts/15 Minute Crying Session.md",
+        "dest_uri": "posts/15%20Minute%20Crying%20Session/",
+        "name": "15 Minute Crying Session",
+        "url": "posts/15%20Minute%20Crying%20Session/"
+    },
+    {
+        "src_uri": "posts/ADHD and Oppositional Defiance.md",
+        "dest_uri": "posts/ADHD%20and%20Oppositional%20Defiance/",
+        "name": "ADHD and Oppositional Defiance",
+        "url": "posts/ADHD%20and%20Oppositional%20Defiance/"
+    },
+    {
+        "src_uri": "posts/About.md",
+        "dest_uri": "posts/About/",
+        "name": "About",
+        "url": "posts/About/"
+    },
+    {
+        "src_uri": "posts/Atomic Content Should Fit On A Single Page.md",
+        "dest_uri": "posts/Atomic%20Content%20Should%20Fit%20On%20A%20Single%20Page/",
+        "name": "Atomic Content Should Fit On A Single Page",
+        "url": "posts/Atomic%20Content%20Should%20Fit%20On%20A%20Single%20Page/"
+    },
+    {
+        "src_uri": "posts/Atomic Content Should Have Descriptive Names.md",
+        "dest_uri": "posts/Atomic%20Content%20Should%20Have%20Descriptive%20Names/",
+        "name": "Atomic Content Should Have Descriptive Names",
+        "url": "posts/Atomic%20Content%20Should%20Have%20Descriptive%20Names/"
+    },
+    {
+        "src_uri": "posts/Atomic Content.md",
+        "dest_uri": "posts/Atomic%20Content/",
+        "name": "Atomic Content",
+        "url": "posts/Atomic%20Content/"
+    },
+    {
+        "src_uri": "posts/Better Than Alcohol.md",
+        "dest_uri": "posts/Better%20Than%20Alcohol/",
+        "name": "Better Than Alcohol",
+        "url": "posts/Better%20Than%20Alcohol/"
+    },
+    {
+        "src_uri": "posts/Budget Authority Need Timing.md",
+        "dest_uri": "posts/Budget%20Authority%20Need%20Timing/",
+        "name": "Budget Authority Need Timing",
+        "url": "posts/Budget%20Authority%20Need%20Timing/"
+    },
+    {
+        "src_uri": "posts/Caffeine Has A Half-Life Of 5 Hours.md",
+        "dest_uri": "posts/Caffeine%20Has%20A%20Half-Life%20Of%205%20Hours/",
+        "name": "Caffeine Has A Half-Life Of 5 Hours",
+        "url": "posts/Caffeine%20Has%20A%20Half-Life%20Of%205%20Hours/"
+    },
+    {
+        "src_uri": "posts/Chefs Create Recipes, Cooks Follow Recipes.md",
+        "dest_uri": "posts/Chefs%20Create%20Recipes%2C%20Cooks%20Follow%20Recipes/",
+        "name": "Chefs Create Recipes, Cooks Follow Recipes",
+        "url": "posts/Chefs%20Create%20Recipes%2C%20Cooks%20Follow%20Recipes/"
+    },
+    {
+        "src_uri": "posts/Consistent Problems vs Good Problems.md",
+        "dest_uri": "posts/Consistent%20Problems%20vs%20Good%20Problems/",
+        "name": "Consistent Problems vs Good Problems",
+        "url": "posts/Consistent%20Problems%20vs%20Good%20Problems/"
+    },
+    {
+        "src_uri": "posts/Coping With Loss.md",
+        "dest_uri": "posts/Coping%20With%20Loss/",
+        "name": "Coping With Loss",
+        "url": "posts/Coping%20With%20Loss/"
+    },
+    {
+        "src_uri": "posts/Dangerous Writing.md",
+        "dest_uri": "posts/Dangerous%20Writing/",
+        "name": "Dangerous Writing",
+        "url": "posts/Dangerous%20Writing/"
+    },
+    {
+        "src_uri": "posts/Deficiency Needs Vs Growth Needs.md",
+        "dest_uri": "posts/Deficiency%20Needs%20Vs%20Growth%20Needs/",
+        "name": "Deficiency Needs Vs Growth Needs",
+        "url": "posts/Deficiency%20Needs%20Vs%20Growth%20Needs/"
+    },
+    {
+        "src_uri": "posts/Deficiency Needs Vs. Growth Needs.md",
+        "dest_uri": "posts/Deficiency%20Needs%20Vs.%20Growth%20Needs/",
+        "name": "Deficiency Needs Vs. Growth Needs",
+        "url": "posts/Deficiency%20Needs%20Vs.%20Growth%20Needs/"
+    },
+    {
+        "src_uri": "posts/Dice Notation.md",
+        "dest_uri": "posts/Dice%20Notation/",
+        "name": "Dice Notation",
+        "url": "posts/Dice%20Notation/"
+    },
+    {
+        "src_uri": "posts/Digital Garden.md",
+        "dest_uri": "posts/Digital%20Garden/",
+        "name": "Digital Garden",
+        "url": "posts/Digital%20Garden/"
+    },
+    {
+        "src_uri": "posts/Doormat.md",
+        "dest_uri": "posts/Doormat/",
+        "name": "Doormat",
+        "url": "posts/Doormat/"
+    },
+    {
+        "src_uri": "posts/Emotional Bankruptcy.md",
+        "dest_uri": "posts/Emotional%20Bankruptcy/",
+        "name": "Emotional Bankruptcy",
+        "url": "posts/Emotional%20Bankruptcy/"
+    },
+    {
+        "src_uri": "posts/Escapism.md",
+        "dest_uri": "posts/Escapism/",
+        "name": "Escapism",
+        "url": "posts/Escapism/"
+    },
+    {
+        "src_uri": "posts/Examples Of Paying For The Linear Walkthrough.md",
+        "dest_uri": "posts/Examples%20Of%20Paying%20For%20The%20Linear%20Walkthrough/",
+        "name": "Examples Of Paying For The Linear Walkthrough",
+        "url": "posts/Examples%20Of%20Paying%20For%20The%20Linear%20Walkthrough/"
+    },
+    {
+        "src_uri": "posts/Fear Setting.md",
+        "dest_uri": "posts/Fear%20Setting/",
+        "name": "Fear Setting",
+        "url": "posts/Fear%20Setting/"
+    },
+    {
+        "src_uri": "posts/Franchise.md",
+        "dest_uri": "posts/Franchise/",
+        "name": "Franchise",
+        "url": "posts/Franchise/"
+    },
+    {
+        "src_uri": "posts/Franchising and ADHD.md",
+        "dest_uri": "posts/Franchising%20and%20ADHD/",
+        "name": "Franchising and ADHD",
+        "url": "posts/Franchising%20and%20ADHD/"
+    },
+    {
+        "src_uri": "posts/Friendship Formula.md",
+        "dest_uri": "posts/Friendship%20Formula/",
+        "name": "Friendship Formula",
+        "url": "posts/Friendship%20Formula/"
+    },
+    {
+        "src_uri": "posts/Gods Are Ways To Anthropomorphize Abstract Systems.md",
+        "dest_uri": "posts/Gods%20Are%20Ways%20To%20Anthropomorphize%20Abstract%20Systems/",
+        "name": "Gods Are Ways To Anthropomorphize Abstract Systems",
+        "url": "posts/Gods%20Are%20Ways%20To%20Anthropomorphize%20Abstract%20Systems/"
+    },
+    {
+        "src_uri": "posts/Happiness Is A Bad Goal.md",
+        "dest_uri": "posts/Happiness%20Is%20A%20Bad%20Goal/",
+        "name": "Happiness Is A Bad Goal",
+        "url": "posts/Happiness%20Is%20A%20Bad%20Goal/"
+    },
+    {
+        "src_uri": "posts/Hierarchy Of Needs.md",
+        "dest_uri": "posts/Hierarchy%20Of%20Needs/",
+        "name": "Hierarchy Of Needs",
+        "url": "posts/Hierarchy%20Of%20Needs/"
+    },
+    {
+        "src_uri": "posts/Highlight Internal Links.md",
+        "dest_uri": "posts/Highlight%20Internal%20Links/",
+        "name": "Highlight Internal Links",
+        "url": "posts/Highlight%20Internal%20Links/"
+    },
+    {
+        "src_uri": "posts/Highly interlinked ideas naturally get repeated more often.md",
+        "dest_uri": "posts/Highly%20interlinked%20ideas%20naturally%20get%20repeated%20more%20often/",
+        "name": "Highly interlinked ideas naturally get repeated more often",
+        "url": "posts/Highly%20interlinked%20ideas%20naturally%20get%20repeated%20more%20often/"
+    },
+    {
+        "src_uri": "posts/How I designed my 2022 new-years resolution.md",
+        "dest_uri": "posts/How%20I%20designed%20my%202022%20new-years%20resolution/",
+        "name": "How I designed my 2022 new-years resolution",
+        "url": "posts/How%20I%20designed%20my%202022%20new-years%20resolution/"
+    },
+    {
+        "src_uri": "posts/How Seth Goden Writes A Book.md",
+        "dest_uri": "posts/How%20Seth%20Goden%20Writes%20A%20Book/",
+        "name": "How Seth Goden Writes A Book",
+        "url": "posts/How%20Seth%20Goden%20Writes%20A%20Book/"
+    },
+    {
+        "src_uri": "posts/How should one operate knowing they're being monitored at all times.md",
+        "dest_uri": "posts/How%20should%20one%20operate%20knowing%20they%27re%20being%20monitored%20at%20all%20times/",
+        "name": "How should one operate knowing they're being monitored at all times",
+        "url": "posts/How%20should%20one%20operate%20knowing%20they%27re%20being%20monitored%20at%20all%20times/"
+    },
+    {
+        "src_uri": "posts/I built a pikachu classifier because there's way too many of them.md",
+        "dest_uri": "posts/I%20built%20a%20pikachu%20classifier%20because%20there%27s%20way%20too%20many%20of%20them/",
+        "name": "I built a pikachu classifier because there's way too many of them",
+        "url": "posts/I%20built%20a%20pikachu%20classifier%20because%20there%27s%20way%20too%20many%20of%20them/"
+    },
+    {
+        "src_uri": "posts/Intro to APIs and how to use them.md",
+        "dest_uri": "posts/Intro%20to%20APIs%20and%20how%20to%20use%20them/",
+        "name": "Intro to APIs and how to use them",
+        "url": "posts/Intro%20to%20APIs%20and%20how%20to%20use%20them/"
+    },
+    {
+        "src_uri": "posts/It Goes In The Square Hole.md",
+        "dest_uri": "posts/It%20Goes%20In%20The%20Square%20Hole/",
+        "name": "It Goes In The Square Hole",
+        "url": "posts/It%20Goes%20In%20The%20Square%20Hole/"
+    },
+    {
+        "src_uri": "posts/It Is Their Nature.md",
+        "dest_uri": "posts/It%20Is%20Their%20Nature/",
+        "name": "It Is Their Nature",
+        "url": "posts/It%20Is%20Their%20Nature/"
+    },
+    {
+        "src_uri": "posts/It's helpful to be able to link to things.md",
+        "dest_uri": "posts/It%27s%20helpful%20to%20be%20able%20to%20link%20to%20things/",
+        "name": "It's helpful to be able to link to things",
+        "url": "posts/It%27s%20helpful%20to%20be%20able%20to%20link%20to%20things/"
+    },
+    {
+        "src_uri": "posts/Linear Walkthrough.md",
+        "dest_uri": "posts/Linear%20Walkthrough/",
+        "name": "Linear Walkthrough",
+        "url": "posts/Linear%20Walkthrough/"
+    },
+    {
+        "src_uri": "posts/Maladaptive Coping Mechanism.md",
+        "dest_uri": "posts/Maladaptive%20Coping%20Mechanism/",
+        "name": "Maladaptive Coping Mechanism",
+        "url": "posts/Maladaptive%20Coping%20Mechanism/"
+    },
+    {
+        "src_uri": "posts/Morality Requires the Ability to Act Immorally.md",
+        "dest_uri": "posts/Morality%20Requires%20the%20Ability%20to%20Act%20Immorally/",
+        "name": "Morality Requires the Ability to Act Immorally",
+        "url": "posts/Morality%20Requires%20the%20Ability%20to%20Act%20Immorally/"
+    },
+    {
+        "src_uri": "posts/Nature Shibboleth.md",
+        "dest_uri": "posts/Nature%20Shibboleth/",
+        "name": "Nature Shibboleth",
+        "url": "posts/Nature%20Shibboleth/"
+    },
+    {
+        "src_uri": "posts/North Star-ing.md",
+        "dest_uri": "posts/North%20Star-ing/",
+        "name": "North Star-ing",
+        "url": "posts/North%20Star-ing/"
+    },
+    {
+        "src_uri": "posts/Obsidian Formatting.md",
+        "dest_uri": "posts/Obsidian%20Formatting/",
+        "name": "Obsidian Formatting",
+        "url": "posts/Obsidian%20Formatting/"
+    },
+    {
+        "src_uri": "posts/Outlining Tools.md",
+        "dest_uri": "posts/Outlining%20Tools/",
+        "name": "Outlining Tools",
+        "url": "posts/Outlining%20Tools/"
+    },
+    {
+        "src_uri": "posts/Pages and Notes Structure.md",
+        "dest_uri": "posts/Pages%20and%20Notes%20Structure/",
+        "name": "Pages and Notes Structure",
+        "url": "posts/Pages%20and%20Notes%20Structure/"
+    },
+    {
+        "src_uri": "posts/Pain & Pleasure Exist To Determine Your Actions.md",
+        "dest_uri": "posts/Pain%20%26%20Pleasure%20Exist%20To%20Determine%20Your%20Actions/",
+        "name": "Pain & Pleasure Exist To Determine Your Actions",
+        "url": "posts/Pain%20%26%20Pleasure%20Exist%20To%20Determine%20Your%20Actions/"
+    },
+    {
+        "src_uri": "posts/Plutchik Model Of Emotion.md",
+        "dest_uri": "posts/Plutchik%20Model%20Of%20Emotion/",
+        "name": "Plutchik Model Of Emotion",
+        "url": "posts/Plutchik%20Model%20Of%20Emotion/"
+    },
+    {
+        "src_uri": "posts/Prisoners Dilemma.md",
+        "dest_uri": "posts/Prisoners%20Dilemma/",
+        "name": "Prisoners Dilemma",
+        "url": "posts/Prisoners%20Dilemma/"
+    },
+    {
+        "src_uri": "posts/Reciprocal Altruism.md",
+        "dest_uri": "posts/Reciprocal%20Altruism/",
+        "name": "Reciprocal Altruism",
+        "url": "posts/Reciprocal%20Altruism/"
+    },
+    {
+        "src_uri": "posts/Relationships Should Be Limited to Dimensions of Mutual Benefit.md",
+        "dest_uri": "posts/Relationships%20Should%20Be%20Limited%20to%20Dimensions%20of%20Mutual%20Benefit/",
+        "name": "Relationships Should Be Limited to Dimensions of Mutual Benefit",
+        "url": "posts/Relationships%20Should%20Be%20Limited%20to%20Dimensions%20of%20Mutual%20Benefit/"
+    },
+    {
+        "src_uri": "posts/SCRS.md",
+        "dest_uri": "posts/SCRS/",
+        "name": "SCRS",
+        "url": "posts/SCRS/"
+    },
+    {
+        "src_uri": "posts/Scale-free Network.md",
+        "dest_uri": "posts/Scale-free%20Network/",
+        "name": "Scale-free Network",
+        "url": "posts/Scale-free%20Network/"
+    },
+    {
+        "src_uri": "posts/Serf.md",
+        "dest_uri": "posts/Serf/",
+        "name": "Serf",
+        "url": "posts/Serf/"
+    },
+    {
+        "src_uri": "posts/Shibboleth.md",
+        "dest_uri": "posts/Shibboleth/",
+        "name": "Shibboleth",
+        "url": "posts/Shibboleth/"
+    },
+    {
+        "src_uri": "posts/Simple d6 Oracle.md",
+        "dest_uri": "posts/Simple%20d6%20Oracle/",
+        "name": "Simple d6 Oracle",
+        "url": "posts/Simple%20d6%20Oracle/"
+    },
+    {
+        "src_uri": "posts/Siren Song.md",
+        "dest_uri": "posts/Siren%20Song/",
+        "name": "Siren Song",
+        "url": "posts/Siren%20Song/"
+    },
+    {
+        "src_uri": "posts/Style Transfer From Image In Stable Diffusion.md",
+        "dest_uri": "posts/Style%20Transfer%20From%20Image%20In%20Stable%20Diffusion/",
+        "name": "Style Transfer From Image In Stable Diffusion",
+        "url": "posts/Style%20Transfer%20From%20Image%20In%20Stable%20Diffusion/"
+    },
+    {
+        "src_uri": "posts/Style Transfer From Text In Stable Diffusion.md",
+        "dest_uri": "posts/Style%20Transfer%20From%20Text%20In%20Stable%20Diffusion/",
+        "name": "Style Transfer From Text In Stable Diffusion",
+        "url": "posts/Style%20Transfer%20From%20Text%20In%20Stable%20Diffusion/"
+    },
+    {
+        "src_uri": "posts/T2I-Adapter.md",
+        "dest_uri": "posts/T2I-Adapter/",
+        "name": "T2I-Adapter",
+        "url": "posts/T2I-Adapter/"
+    },
+    {
+        "src_uri": "posts/Test Of Skills.md",
+        "dest_uri": "posts/Test%20Of%20Skills/",
+        "name": "Test Of Skills",
+        "url": "posts/Test%20Of%20Skills/"
+    },
+    {
+        "src_uri": "posts/The Scorpion And The Frog.md",
+        "dest_uri": "posts/The%20Scorpion%20And%20The%20Frog/",
+        "name": "The Scorpion And The Frog",
+        "url": "posts/The%20Scorpion%20And%20The%20Frog/"
+    },
+    {
+        "src_uri": "posts/Their Luck Is Your Luck.md",
+        "dest_uri": "posts/Their%20Luck%20Is%20Your%20Luck/",
+        "name": "Their Luck Is Your Luck",
+        "url": "posts/Their%20Luck%20Is%20Your%20Luck/"
+    },
+    {
+        "src_uri": "posts/There Is No Recipe For New Things.md",
+        "dest_uri": "posts/There%20Is%20No%20Recipe%20For%20New%20Things/",
+        "name": "There Is No Recipe For New Things",
+        "url": "posts/There%20Is%20No%20Recipe%20For%20New%20Things/"
+    },
+    {
+        "src_uri": "posts/There Is No Right Way To Grieve.md",
+        "dest_uri": "posts/There%20Is%20No%20Right%20Way%20To%20Grieve/",
+        "name": "There Is No Right Way To Grieve",
+        "url": "posts/There%20Is%20No%20Right%20Way%20To%20Grieve/"
+    },
+    {
+        "src_uri": "posts/There Is No Timeline For Grief.md",
+        "dest_uri": "posts/There%20Is%20No%20Timeline%20For%20Grief/",
+        "name": "There Is No Timeline For Grief",
+        "url": "posts/There%20Is%20No%20Timeline%20For%20Grief/"
+    },
+    {
+        "src_uri": "posts/Too Much Pain Stops You From Wanting Things.md",
+        "dest_uri": "posts/Too%20Much%20Pain%20Stops%20You%20From%20Wanting%20Things/",
+        "name": "Too Much Pain Stops You From Wanting Things",
+        "url": "posts/Too%20Much%20Pain%20Stops%20You%20From%20Wanting%20Things/"
+    },
+    {
+        "src_uri": "posts/Unified 3 Action TTRPG Timescale.md",
+        "dest_uri": "posts/Unified%203%20Action%20TTRPG%20Timescale/",
+        "name": "Unified 3 Action TTRPG Timescale",
+        "url": "posts/Unified%203%20Action%20TTRPG%20Timescale/"
+    },
+    {
+        "src_uri": "posts/Urgent Tasks & Important Tasks.md",
+        "dest_uri": "posts/Urgent%20Tasks%20%26%20Important%20Tasks/",
+        "name": "Urgent Tasks & Important Tasks",
+        "url": "posts/Urgent%20Tasks%20%26%20Important%20Tasks/"
+    },
+    {
+        "src_uri": "posts/Using ControlNet to Create Battle Maps.md",
+        "dest_uri": "posts/Using%20ControlNet%20to%20Create%20Battle%20Maps/",
+        "name": "Using ControlNet to Create Battle Maps",
+        "url": "posts/Using%20ControlNet%20to%20Create%20Battle%20Maps/"
+    },
+    {
+        "src_uri": "posts/VAPID Goals.md",
+        "dest_uri": "posts/VAPID%20Goals/",
+        "name": "VAPID Goals",
+        "url": "posts/VAPID%20Goals/"
+    },
+    {
+        "src_uri": "posts/Wanting Something Means Being Disappointed When You Don't Get It.md",
+        "dest_uri": "posts/Wanting%20Something%20Means%20Being%20Disappointed%20When%20You%20Don%27t%20Get%20It/",
+        "name": "Wanting Something Means Being Disappointed When You Don't Get It",
+        "url": "posts/Wanting%20Something%20Means%20Being%20Disappointed%20When%20You%20Don%27t%20Get%20It/"
+    },
+    {
+        "src_uri": "posts/Why Executives Are Rude On Sales Calls.md",
+        "dest_uri": "posts/Why%20Executives%20Are%20Rude%20On%20Sales%20Calls/",
+        "name": "Why Executives Are Rude On Sales Calls",
+        "url": "posts/Why%20Executives%20Are%20Rude%20On%20Sales%20Calls/"
+    },
+    {
+        "src_uri": "posts/Wine Dimension \u2013 Bitterness.md",
+        "dest_uri": "posts/Wine%20Dimension%20%E2%80%93%20Bitterness/",
+        "name": "Wine Dimension \u2013 Bitterness",
+        "url": "posts/Wine%20Dimension%20%E2%80%93%20Bitterness/"
+    },
+    {
+        "src_uri": "posts/Write Drunk, Edit Sober.md",
+        "dest_uri": "posts/Write%20Drunk%2C%20Edit%20Sober/",
+        "name": "Write Drunk, Edit Sober",
+        "url": "posts/Write%20Drunk%2C%20Edit%20Sober/"
+    },
+    {
+        "src_uri": "posts/Yearly Theme.md",
+        "dest_uri": "posts/Yearly%20Theme/",
+        "name": "Yearly Theme",
+        "url": "posts/Yearly%20Theme/"
+    },
+    {
+        "src_uri": "posts/You need 4 hours to paint.md",
+        "dest_uri": "posts/You%20need%204%20hours%20to%20paint/",
+        "name": "You need 4 hours to paint",
+        "url": "posts/You%20need%204%20hours%20to%20paint/"
+    },
+    {
+        "src_uri": "posts/Zettelkasten.md",
+        "dest_uri": "posts/Zettelkasten/",
+        "name": "Zettelkasten",
+        "url": "posts/Zettelkasten/"
+    },
+    {
+        "src_uri": "posts/d20 \u00b1 Xd6 Checks.md",
+        "dest_uri": "posts/d20%20%C2%B1%20Xd6%20Checks/",
+        "name": "d20 \u00b1 Xd6 Checks",
+        "url": "posts/d20%20%C2%B1%20Xd6%20Checks/"
+    },
+    {
+        "src_uri": "assets/images/favicon.png",
+        "dest_uri": "assets/images/favicon.png",
+        "name": "favicon",
+        "url": "assets/images/favicon.png"
+    },
+    {
+        "src_uri": "assets/javascripts/bundle.081f42fc.min.js",
+        "dest_uri": "assets/javascripts/bundle.081f42fc.min.js",
+        "name": "bundle.081f42fc.min",
+        "url": "assets/javascripts/bundle.081f42fc.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/bundle.081f42fc.min.js.map",
+        "dest_uri": "assets/javascripts/bundle.081f42fc.min.js.map",
+        "name": "bundle.081f42fc.min.js",
+        "url": "assets/javascripts/bundle.081f42fc.min.js.map"
+    },
+    {
+        "src_uri": "assets/javascripts/custom.13133f3f.min.js",
+        "dest_uri": "assets/javascripts/custom.13133f3f.min.js",
+        "name": "custom.13133f3f.min",
+        "url": "assets/javascripts/custom.13133f3f.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/custom.13133f3f.min.js.map",
+        "dest_uri": "assets/javascripts/custom.13133f3f.min.js.map",
+        "name": "custom.13133f3f.min.js",
+        "url": "assets/javascripts/custom.13133f3f.min.js.map"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ar.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ar.min.js",
+        "name": "lunr.ar.min",
+        "url": "assets/javascripts/lunr/min/lunr.ar.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.da.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.da.min.js",
+        "name": "lunr.da.min",
+        "url": "assets/javascripts/lunr/min/lunr.da.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.de.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.de.min.js",
+        "name": "lunr.de.min",
+        "url": "assets/javascripts/lunr/min/lunr.de.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.du.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.du.min.js",
+        "name": "lunr.du.min",
+        "url": "assets/javascripts/lunr/min/lunr.du.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.el.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.el.min.js",
+        "name": "lunr.el.min",
+        "url": "assets/javascripts/lunr/min/lunr.el.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.es.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.es.min.js",
+        "name": "lunr.es.min",
+        "url": "assets/javascripts/lunr/min/lunr.es.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.fi.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.fi.min.js",
+        "name": "lunr.fi.min",
+        "url": "assets/javascripts/lunr/min/lunr.fi.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.fr.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.fr.min.js",
+        "name": "lunr.fr.min",
+        "url": "assets/javascripts/lunr/min/lunr.fr.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.he.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.he.min.js",
+        "name": "lunr.he.min",
+        "url": "assets/javascripts/lunr/min/lunr.he.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.hi.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.hi.min.js",
+        "name": "lunr.hi.min",
+        "url": "assets/javascripts/lunr/min/lunr.hi.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.hu.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.hu.min.js",
+        "name": "lunr.hu.min",
+        "url": "assets/javascripts/lunr/min/lunr.hu.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.hy.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.hy.min.js",
+        "name": "lunr.hy.min",
+        "url": "assets/javascripts/lunr/min/lunr.hy.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.it.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.it.min.js",
+        "name": "lunr.it.min",
+        "url": "assets/javascripts/lunr/min/lunr.it.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ja.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ja.min.js",
+        "name": "lunr.ja.min",
+        "url": "assets/javascripts/lunr/min/lunr.ja.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.jp.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.jp.min.js",
+        "name": "lunr.jp.min",
+        "url": "assets/javascripts/lunr/min/lunr.jp.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.kn.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.kn.min.js",
+        "name": "lunr.kn.min",
+        "url": "assets/javascripts/lunr/min/lunr.kn.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ko.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ko.min.js",
+        "name": "lunr.ko.min",
+        "url": "assets/javascripts/lunr/min/lunr.ko.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.multi.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.multi.min.js",
+        "name": "lunr.multi.min",
+        "url": "assets/javascripts/lunr/min/lunr.multi.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.nl.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.nl.min.js",
+        "name": "lunr.nl.min",
+        "url": "assets/javascripts/lunr/min/lunr.nl.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.no.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.no.min.js",
+        "name": "lunr.no.min",
+        "url": "assets/javascripts/lunr/min/lunr.no.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.pt.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.pt.min.js",
+        "name": "lunr.pt.min",
+        "url": "assets/javascripts/lunr/min/lunr.pt.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ro.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ro.min.js",
+        "name": "lunr.ro.min",
+        "url": "assets/javascripts/lunr/min/lunr.ro.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ru.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ru.min.js",
+        "name": "lunr.ru.min",
+        "url": "assets/javascripts/lunr/min/lunr.ru.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.sa.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.sa.min.js",
+        "name": "lunr.sa.min",
+        "url": "assets/javascripts/lunr/min/lunr.sa.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.stemmer.support.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.stemmer.support.min.js",
+        "name": "lunr.stemmer.support.min",
+        "url": "assets/javascripts/lunr/min/lunr.stemmer.support.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.sv.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.sv.min.js",
+        "name": "lunr.sv.min",
+        "url": "assets/javascripts/lunr/min/lunr.sv.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ta.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ta.min.js",
+        "name": "lunr.ta.min",
+        "url": "assets/javascripts/lunr/min/lunr.ta.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.te.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.te.min.js",
+        "name": "lunr.te.min",
+        "url": "assets/javascripts/lunr/min/lunr.te.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.th.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.th.min.js",
+        "name": "lunr.th.min",
+        "url": "assets/javascripts/lunr/min/lunr.th.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.tr.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.tr.min.js",
+        "name": "lunr.tr.min",
+        "url": "assets/javascripts/lunr/min/lunr.tr.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.vi.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.vi.min.js",
+        "name": "lunr.vi.min",
+        "url": "assets/javascripts/lunr/min/lunr.vi.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.zh.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.zh.min.js",
+        "name": "lunr.zh.min",
+        "url": "assets/javascripts/lunr/min/lunr.zh.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/tinyseg.js",
+        "dest_uri": "assets/javascripts/lunr/tinyseg.js",
+        "name": "tinyseg",
+        "url": "assets/javascripts/lunr/tinyseg.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/wordcut.js",
+        "dest_uri": "assets/javascripts/lunr/wordcut.js",
+        "name": "wordcut",
+        "url": "assets/javascripts/lunr/wordcut.js"
+    },
+    {
+        "src_uri": "assets/javascripts/workers/search.b8dbb3d2.min.js",
+        "dest_uri": "assets/javascripts/workers/search.b8dbb3d2.min.js",
+        "name": "search.b8dbb3d2.min",
+        "url": "assets/javascripts/workers/search.b8dbb3d2.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/workers/search.b8dbb3d2.min.js.map",
+        "dest_uri": "assets/javascripts/workers/search.b8dbb3d2.min.js.map",
+        "name": "search.b8dbb3d2.min.js",
+        "url": "assets/javascripts/workers/search.b8dbb3d2.min.js.map"
+    },
+    {
+        "src_uri": "assets/stylesheets/custom.f7ec4df2.min.css",
+        "dest_uri": "assets/stylesheets/custom.f7ec4df2.min.css",
+        "name": "custom.f7ec4df2.min",
+        "url": "assets/stylesheets/custom.f7ec4df2.min.css"
+    },
+    {
+        "src_uri": "assets/stylesheets/custom.f7ec4df2.min.css.map",
+        "dest_uri": "assets/stylesheets/custom.f7ec4df2.min.css.map",
+        "name": "custom.f7ec4df2.min.css",
+        "url": "assets/stylesheets/custom.f7ec4df2.min.css.map"
+    },
+    {
+        "src_uri": "assets/stylesheets/main.6543a935.min.css",
+        "dest_uri": "assets/stylesheets/main.6543a935.min.css",
+        "name": "main.6543a935.min",
+        "url": "assets/stylesheets/main.6543a935.min.css"
+    },
+    {
+        "src_uri": "assets/stylesheets/main.6543a935.min.css.map",
+        "dest_uri": "assets/stylesheets/main.6543a935.min.css.map",
+        "name": "main.6543a935.min.css",
+        "url": "assets/stylesheets/main.6543a935.min.css.map"
+    },
+    {
+        "src_uri": "assets/stylesheets/palette.06af60db.min.css",
+        "dest_uri": "assets/stylesheets/palette.06af60db.min.css",
+        "name": "palette.06af60db.min",
+        "url": "assets/stylesheets/palette.06af60db.min.css"
+    },
+    {
+        "src_uri": "assets/stylesheets/palette.06af60db.min.css.map",
+        "dest_uri": "assets/stylesheets/palette.06af60db.min.css.map",
+        "name": "palette.06af60db.min.css",
+        "url": "assets/stylesheets/palette.06af60db.min.css.map"
+    }
+]

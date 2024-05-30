@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 750px;
+                 height: 750px;
+                 background-color: transparent;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Deficiency Needs Vs. Growth Needs", "label": "Deficiency Needs Vs. Growth Needs", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Hierarchy Of Needs", "label": "Hierarchy Of Needs", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Publishing Your Site", "label": "Publishing Your Site", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Humans are beasts of burden", "label": "Humans are beasts of burden", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "You\u0027ll Always Have The Same Number Of Problems", "label": "You\u0027ll Always Have The Same Number Of Problems", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Stoicism", "label": "Stoicism", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Asceticism", "label": "Asceticism", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Excess Energy Leads To Revolutionary Ideas", "label": "Excess Energy Leads To Revolutionary Ideas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Individuation", "label": "Individuation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Sex is a core need", "label": "Sex is a core need", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "It\u0027s helpful to be able to link to things", "label": "It\u0027s helpful to be able to link to things", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "meme", "label": "meme", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Nothing Ever Happens Once", "label": "Nothing Ever Happens Once", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Original thought is slow and expensive, and you should avoid it whenever possible", "label": "Original thought is slow and expensive, and you should avoid it whenever possible", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Publishing Pays Off", "label": "Publishing Pays Off", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "You Are A Collage", "label": "You Are A Collage", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Domain Authority", "label": "Domain Authority", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Nature Shibboleth", "label": "Nature Shibboleth", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Shibboleth", "label": "Shibboleth", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Things have an essential nature", "label": "Things have an essential nature", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Imposter Syndrome", "label": "Imposter Syndrome", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "In Group \u0026 Out Group", "label": "In Group \u0026 Out Group", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "If you know, you know", "label": "If you know, you know", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "Cultural Osmosis", "label": "Cultural Osmosis", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "alternatives", "label": "alternatives", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "browser-support", "label": "browser-support", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "creating-your-site", "label": "creating-your-site", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "customization", "label": "customization", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "getting-started", "label": "getting-started", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "graph", "label": "graph", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "index (2)", "label": "index (2)", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "index", "label": "index", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "license", "label": "license", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "publishing-your-site", "label": "publishing-your-site", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "upgrade", "label": "upgrade", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "blog\\index", "label": "blog\\index", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "blog-support-just-landed", "label": "blog-support-just-landed", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "chinese-search-support", "label": "chinese-search-support", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "excluding-content-from-search", "label": "excluding-content-from-search", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "search-better-faster-smaller", "label": "search-better-faster-smaller", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "the-past-present-and-future", "label": "the-past-present-and-future", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "changelog\\index", "label": "changelog\\index", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "contributing\\index", "label": "contributing\\index", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "reporting-a-bug", "label": "reporting-a-bug", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "reporting-a-docs-issue", "label": "reporting-a-docs-issue", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "requesting-a-change", "label": "requesting-a-change", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "creating-a-reproduction", "label": "creating-a-reproduction", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "changelog", "label": "changelog", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "insiders\\getting-started", "label": "insiders\\getting-started", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "insiders\\index", "label": "insiders\\index", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "admonitions", "label": "admonitions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "annotations", "label": "annotations", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "buttons", "label": "buttons", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "code-blocks", "label": "code-blocks", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "content-tabs", "label": "content-tabs", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "data-tables", "label": "data-tables", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "diagrams", "label": "diagrams", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "footnotes", "label": "footnotes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "formatting", "label": "formatting", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "grids", "label": "grids", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "icons-emojis", "label": "icons-emojis", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "images", "label": "images", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "reference\\index", "label": "reference\\index", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "lists", "label": "lists", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "math", "label": "math", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "tooltips", "label": "tooltips", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "adding-a-comment-system", "label": "adding-a-comment-system", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "adding-a-git-repository", "label": "adding-a-git-repository", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "building-an-optimized-site", "label": "building-an-optimized-site", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "building-for-offline-usage", "label": "building-for-offline-usage", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "changing-the-colors", "label": "changing-the-colors", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "changing-the-fonts", "label": "changing-the-fonts", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "changing-the-language", "label": "changing-the-language", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "changing-the-logo-and-icons", "label": "changing-the-logo-and-icons", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "ensuring-data-privacy", "label": "ensuring-data-privacy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setup\\index", "label": "setup\\index", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setting-up-a-blog", "label": "setting-up-a-blog", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setting-up-navigation", "label": "setting-up-navigation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setting-up-site-analytics", "label": "setting-up-site-analytics", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setting-up-site-search", "label": "setting-up-site-search", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setting-up-social-cards", "label": "setting-up-social-cards", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setting-up-tags", "label": "setting-up-tags", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setting-up-the-footer", "label": "setting-up-the-footer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setting-up-the-header", "label": "setting-up-the-header", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setting-up-versioning", "label": "setting-up-versioning", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "image-processing", "label": "image-processing", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "setup\\extensions\\index", "label": "setup\\extensions\\index", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "python-markdown-extensions", "label": "python-markdown-extensions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "#7c7c7c"}, "id": "python-markdown", "label": "python-markdown", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "Deficiency Needs Vs. Growth Needs", "to": "Deficiency Needs Vs. Growth Needs", "width": 1}, {"from": "Deficiency Needs Vs. Growth Needs", "to": "Hierarchy Of Needs", "width": 1}, {"from": "Deficiency Needs Vs. Growth Needs", "to": "Publishing Your Site", "width": 1}, {"from": "Deficiency Needs Vs. Growth Needs", "to": "Humans are beasts of burden", "width": 1}, {"from": "Deficiency Needs Vs. Growth Needs", "to": "You\u0027ll Always Have The Same Number Of Problems", "width": 1}, {"from": "Deficiency Needs Vs. Growth Needs", "to": "Stoicism", "width": 1}, {"from": "Deficiency Needs Vs. Growth Needs", "to": "Asceticism", "width": 1}, {"from": "Deficiency Needs Vs. Growth Needs", "to": "Excess Energy Leads To Revolutionary Ideas", "width": 1}, {"from": "Hierarchy Of Needs", "to": "Hierarchy Of Needs", "width": 1}, {"from": "Hierarchy Of Needs", "to": "Individuation", "width": 1}, {"from": "Hierarchy Of Needs", "to": "Sex is a core need", "width": 1}, {"from": "It\u0027s helpful to be able to link to things", "to": "It\u0027s helpful to be able to link to things", "width": 1}, {"from": "It\u0027s helpful to be able to link to things", "to": "meme", "width": 1}, {"from": "It\u0027s helpful to be able to link to things", "to": "Nothing Ever Happens Once", "width": 1}, {"from": "It\u0027s helpful to be able to link to things", "to": "Original thought is slow and expensive, and you should avoid it whenever possible", "width": 1}, {"from": "It\u0027s helpful to be able to link to things", "to": "Publishing Pays Off", "width": 1}, {"from": "It\u0027s helpful to be able to link to things", "to": "You Are A Collage", "width": 1}, {"from": "It\u0027s helpful to be able to link to things", "to": "Individuation", "width": 1}, {"from": "It\u0027s helpful to be able to link to things", "to": "Domain Authority", "width": 1}, {"from": "Nature Shibboleth", "to": "Nature Shibboleth", "width": 1}, {"from": "Nature Shibboleth", "to": "Shibboleth", "width": 1}, {"from": "Nature Shibboleth", "to": "Things have an essential nature", "width": 1}, {"from": "Nature Shibboleth", "to": "Imposter Syndrome", "width": 1}, {"from": "Shibboleth", "to": "Shibboleth", "width": 1}, {"from": "Shibboleth", "to": "In Group \u0026 Out Group", "width": 1}, {"from": "Shibboleth", "to": "meme", "width": 1}, {"from": "Shibboleth", "to": "If you know, you know", "width": 1}, {"from": "Shibboleth", "to": "Cultural Osmosis", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
