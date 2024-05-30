@@ -1,5 +1,5 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2023-08-23
 dateModified: 2023-08-23
@@ -7,7 +7,8 @@ image:
 share: true
 stage: 🌿 Fern
 title: The Scorpion And The Frog
-fileClass: [Note]
+fileClass:
+  - Note
 ---
 
 # [[The Scorpion And The Frog|The Scorpion And The Frog]]
@@ -20,11 +21,11 @@ fileClass: [Note]
 > As the frog feels the venom coursing through his body, he asks the scorpion why he did it.
 > The scorpion replies, "It's just in my nature."
 
-The moral of the story is that sometimes an [[Agent|Agent]],  like the [[Scorpion|Scorpion]], can make decisions that go against [[Rational Self Interest]]. 
+The moral of the story is that sometimes an [[Agent|Agent]],  like the [[Scorpion|Scorpion]], can make decisions that go against [[Rational Self Interest|Rational Self Interest]]. 
 
-Like it or not, [[It Is Their Nature|It Is Their Nature]].
+Like it or not, [[./It Is Their Nature|It Is Their Nature]].
 
-The math is very different from the [[Prisoners Dilemma|Prisoners Dilemma]], as the most optimal score is awarded for cooperation.
+The math is very different from the [[./Prisoners Dilemma|Prisoners Dilemma]], as the most optimal score is awarded for cooperation.
 
 |                            | **Frog Helps**             | **Frog Doesn't Help**    |
 | -------------------------- | -------------------------- | ------------------------ |
@@ -36,4 +37,4 @@ Your nature just got you killed you stupid [[Scorpion|Scorpion]]. Why would you 
 It also makes you wonder about the frog. 
 What did they even gain from helping? Why bother taking the risk? 
 
-Maybe it's just [[It Is Their Nature|in their nature]] to want to help.
+Maybe it's just [[./It Is Their Nature|in their nature]] to want to help.
