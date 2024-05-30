@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2023-07-18
 dateModified: 2023-07-18
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 share: true
 stage: 🌱 Seedling
@@ -12,7 +13,7 @@ title: Serf
 
 # [[Serf|Serf]]
 
-While both are members of [[The Working Class]] who are controlled by [[The Owning Class|The Owning Class]], Serfs differ from [[Slave|Slave]]s in a few key ways.
+While both are members of [[The Working Class|The Working Class]] who are controlled by [[The Owning Class|The Owning Class]], Serfs differ from [[Slave|Slave]]s in a few key ways.
 
 Serfs have basic legal rights. 
 - They can marry, be baptized, and cannot be murdered by their Landlord (unlike a [[Slave|Slave]], where it'd be closer legally to killing a cow).
