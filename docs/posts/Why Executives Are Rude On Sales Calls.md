@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-06-11
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 stage: 🌱 Seedling
 share: true
@@ -29,16 +30,16 @@ Regularly, this was our first and only time meeting the executive, and I noticed
 > "Wow, you look like a highschooler. You sure you know anything?" 
 > - President of a shipping & logistics company 
 
-These aren't exactly the nicest things to say right to the face of someone you just met. Don't you become an executive by being good with people? Where's all the [[emotional intelligence]]?
+These aren't exactly the nicest things to say right to the face of someone you just met. Don't you become an executive by being good with people? Where's all the [[emotional intelligence|emotional intelligence]]?
 
-This became common enough that I had to take a step back and figure out what was going on. [[The System Is Working Perfectly, You Just Don't Understand What It's Designed To Do]]
+This became common enough that I had to take a step back and figure out what was going on. [[The System Is Working Perfectly, You Just Don't Understand What It's Designed To Do|The System Is Working Perfectly, You Just Don't Understand What It's Designed To Do]]
 
 Think about why they're even on the call.
 - The department actually using the software has already signed off on it, so they're not there to validate the functionality.
 - Legal and pricing have already been communicated, so they aren't there to haggle.
 - They won't be personally using the software, so there aren't questions on how to do things.
 
-They aren't there to evaluate the software. They're there to evaluate **[[About|me]]**. 
+They aren't there to evaluate the software. They're there to evaluate **[[./About|me]]**. 
 
 That might sound a bit grandiose, but hear me out for a second.
 
