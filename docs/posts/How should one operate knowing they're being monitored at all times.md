@@ -5,7 +5,7 @@ description:
 image: 
 share: true
 stage: 🌿 Fern
-title: "How should one operate knowing they're being monitored at all times"
+title: How should one operate knowing they're being monitored at all times
 toc: false
 ---
 
