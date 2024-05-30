@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-09-04
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 share: true
 stage: 🌿 Fern
