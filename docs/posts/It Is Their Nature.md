@@ -3,7 +3,8 @@ alias:
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-06-11
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 note-stage: 🌱 Seedling
 share: true
@@ -15,7 +16,7 @@ title: It Is Their Nature
 
 [[Things have an essential nature|Things have an essential nature]] which cannot be changed, **even if doing so seems like it would benefit them**.
 
-[[The Scorpion And The Frog|The Scorpion And The Frog]]. The scorpion stung the frog because that's what scorpions do. A scorpion that doesn't sting frogs is no scorpion at all. 
+[[./The Scorpion And The Frog|The Scorpion And The Frog]]. The scorpion stung the frog because that's what scorpions do. A scorpion that doesn't sting frogs is no scorpion at all. 
 
 
 It appears to go against [[Rational Self Interest|Rational Self Interest]] at first. He could have acted differently and everything would have been fine.
