@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2023-08-23
 dateModified: 2023-08-23
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 share: true
 stage: 🌱 Seedling
@@ -32,13 +33,13 @@ So, the critical question is _why_ the Prisoner's Dilemma is a bad [[model|model
 
 It assumes no communication between A & B: They cannot strategize, beg, or haggle.
 
-It assumes that both [[Agent|Agent]]s have [[Rational Self Interest]] and will logically optimize for their score, when it could instead be closer to [[The Scorpion And The Frog|The Scorpion And The Frog]].
+It assumes that both [[Agent|Agent]]s have [[Rational Self Interest|Rational Self Interest]] and will logically optimize for their score, when it could instead be closer to [[./The Scorpion And The Frog|The Scorpion And The Frog]].
 
 Most critically, **it assumes that the knowledge of their actions won't leave this game.** 
 
 It assumes a 1-step game: A & B will never play this game with each other again.
 Prisoner A won't "get a reputation" as an aggressor. 
 
-The Prisoners Dilemma assumes Prisoner A won't get shanked by Prisoner B's gang once they get out. [[Snitches Get Stitches]], don't they?
+The Prisoners Dilemma assumes Prisoner A won't get shanked by Prisoner B's gang once they get out. [[Snitches Get Stitches|Snitches Get Stitches]], don't they?
 
 Life seems to be closer to an [[Iterated Prisoners Dilemma|Iterated Prisoners Dilemma]]. It models human behavior more accurately in most scenarios.
