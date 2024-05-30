@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-12-14
 dateModified: 2023-09-04
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 share: true
 stage: 🌲Evergreen
@@ -12,16 +13,16 @@ title: 1000 True Fans
 
 # [[1000 True Fans|1000 True Fans]]
 
-Most people don't care at all, they just do what everyone else is doing. All that is needed to shift culture is a highly directed and motivated small group to push back, and everyone else will [[Go With The Flow]].
+Most people don't care at all, they just do what everyone else is doing. All that is needed to shift culture is a highly directed and motivated small group to push back, and everyone else will [[Go With The Flow|Go With The Flow]].
 
 ### What True Fans Do For You
 
-True fans provide [[Leverage]]. 
-In [[Graph Theory]], a few super-connectors have an outsized connection to the populace at large. That's why [[Your Friends Have More Friends Than You]].
+True fans provide [[Leverage|Leverage]]. 
+In [[Graph Theory|Graph Theory]], a few super-connectors have an outsized connection to the populace at large. That's why [[Your Friends Have More Friends Than You|Your Friends Have More Friends Than You]].
 
 ### What You Do For True Fans
 
-You have [[Accountability]] to your true fans. They're the people you made this for _specifically_. If you made it for James and James rejects it, it hurts, and you need to do better. So pick your true fans wisely.  
+You have [[Accountability|Accountability]] to your true fans. They're the people you made this for _specifically_. If you made it for James and James rejects it, it hurts, and you need to do better. So pick your true fans wisely.  
 
 True Fans want something _specific_. Something [[Scarcity|Scarce]] that they can't get from someone else who is more established and easier to find.
 
