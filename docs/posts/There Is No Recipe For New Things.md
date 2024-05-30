@@ -1,9 +1,10 @@
 ---
-alias: null
+alias: 
 cssClasses: embed-strict
 date: 2022-11-26
 dateModified: 2023-06-11
-fileClass: [Note]
+fileClass:
+  - Note
 image: 
 stage: 🌱 Seedling
 share: true
@@ -23,4 +24,4 @@ Something done for the first time doesn't have a recipe. Recipes can only be bui
 
 Creating new recipes is expensive, but using recipes once they're created is cheap. [[The First Pill Costs a Billion Dollars, The Second Pill Costs Four Cents|The First Pill Costs a Billion Dollars, The Second Pill Costs Four Cents]].
 
-For some people, [[Figuring Out How To Do Something Is More Fun Than Doing It|Figuring Out How To Do Something Is More Fun Than Doing It]] - and they love making new recipes. They gravitate to new things specifically because it gives them the opportunity to make new recipes. [[About|I]] am one of those people.
+For some people, [[Figuring Out How To Do Something Is More Fun Than Doing It|Figuring Out How To Do Something Is More Fun Than Doing It]] - and they love making new recipes. They gravitate to new things specifically because it gives them the opportunity to make new recipes. [[./About|I]] am one of those people.
